@@ -59,7 +59,7 @@ export default function WorkFlow() {
                                         </div>
                                     </div>
                                     <div class="portfolio-info">
-                                        <h5>Illustrator Work</h5>
+                                        <h5>Photoshop Work</h5>
                                         <span class="theme-after theme-color">Resent Work</span>
                                     </div>
                                 </div>
@@ -74,14 +74,14 @@ export default function WorkFlow() {
                                         </div>
                                     </div>
                                     <div class="portfolio-info">
-                                        <h5>Illustrator Work</h5>
+                                        <h5> PSD to HTML</h5>
                                         <span class="theme-after theme-color">Resent Work</span>
                                     </div>
                                 </div>
                             </div>
                             <div className='slider_border_set_sec'>
                                 <div className='slider_main_work_sec'>
-                                    <div className='top_img_set_slide'>
+                                    <div className='top_img_set_slide Third_img'>
                                         <div className='image_up_icn_set'>
                                             <span> <HiMiniPlay />  </span>
                                             <span><MdFullscreen />  </span>
@@ -89,7 +89,7 @@ export default function WorkFlow() {
                                         </div>
                                     </div>
                                     <div class="portfolio-info">
-                                        <h5>Illustrator Work</h5>
+                                        <h5>Magento</h5>
                                         <span class="theme-after theme-color">Resent Work</span>
                                     </div>
                                 </div>
