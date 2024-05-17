@@ -15,7 +15,7 @@ export default function Biography() {
                                 <div className='Story_learning_about'>STORY</div>
                             </div>
                             <h2>My Awesome  <span style={{ color: "#09c3b3", fontWeight: "800" }}> Story</span></h2>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
+                            <p>I have experience designing and developing websites, web services, and online businesses, and I specialise in creating chic, contemporary solutions for clients of all sizes.</p>
                         </div>
                         <Row>
                             

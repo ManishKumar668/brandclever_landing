@@ -19,8 +19,9 @@ export default function About() {
                                     <div className='Uper_text_about'>
                                         <h6>Hello $ Welcome</h6>
                                         <h2>Everything <span style={{ color: "#09c3b3", fontWeight: "800" }}>About Me</span></h2>
-                                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.<br></br><br></br>
-                                            My passion is to design digital user experiences through the bold interface and meaningful interactions. Check out my PORTFOLIO</p>
+                                        <p>I am a Certified "TOP RATED" Expert Upwork freelancer, I have dedicated over 3320+ working hours throughout my tenure, earning a commendable USD 200k+ and maintaining a perfect 100% job success rate. <br></br><br></br>
+                                            My expertise and dedication have helped numerous businesses across various industries achieve their e-commerce goals on the Shopify platform. Whether you're just starting out or looking to take your online store to the next level.
+                                        </p>
                                     </div>
                                     <div className='down_four_div_about'>
                                         <div className='graphics_start'>
@@ -30,7 +31,7 @@ export default function About() {
                                                 </div>
                                                 <div className='Seond_side_text_about'>
                                                     <h5>Graphic</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                                                    <p>Encapsulates a visually compelling and communicative piece of artwork or design.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -41,7 +42,7 @@ export default function About() {
                                                 </div>
                                                 <div className='Seond_side_text_about'>
                                                     <h5>Web Design</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                                                    <p>Refers to the process of creating and arranging elements on a website in a visually appealing.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -52,7 +53,7 @@ export default function About() {
                                                 </div>
                                                 <div className='Seond_side_text_about'>
                                                     <h5>Photography</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                                                    <p>is the art and practice of capturing images using light-sensitive materials or digital sensors to record visual.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -63,7 +64,7 @@ export default function About() {
                                                 </div>
                                                 <div className='Seond_side_text_about'>
                                                     <h5>Development</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                                                    <p>refers to the process of growth, progress, and improvement in various aspects of human endeavour.</p>
                                                 </div>
                                             </div>
                                         </div>

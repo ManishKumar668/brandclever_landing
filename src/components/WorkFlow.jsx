@@ -29,7 +29,8 @@ export default function WorkFlow() {
                                 <div className='Story_learning_about'>Work</div>
                             </div>
                             <h2>My Awesome  <span style={{ color: "#09c3b3", fontWeight: "800" }}> Work</span></h2>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
+                            <p>Welcome to our dynamic marketing and development agency! We blend creativity and technical prowess to elevate your brand. From captivating campaigns to robust software, we craft tailored solutions for your success. Let's bring your vision to life together.
+</p>
                         </div>
                     </div>
                     <div className='slide_parent'>

@@ -48,16 +48,15 @@ export default function Skill() {
 
     return (
         <div>
-
             <section className='progress_bar_section about_story padding_top_down'>
                 <Container>
                     <div className='about_us_section_main_start'>
                         <div className='top_text_about'>
                             <div className='first_line_main'>
                                 <div className='hori'></div>
-                                <div className='Story_learning_about'>STORY</div>
+                                <div className='Story_learning_about'>SKILLS</div>
                             </div>
-                            <h2>My Awesome  <span style={{ color: "#09c3b3", fontWeight: "800" }}> Story</span></h2>
+                            <h2>My Awesome  <span style={{ color: "#09c3b3", fontWeight: "800" }}> Skill</span></h2>
                             <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
                         </div>
                         <Row ref={sectionRef}>

@@ -18,7 +18,8 @@ export default function HomePage() {
               "Developer",
               "Web Designer",
               "CMS Developer ",
-              "Graphic Designer  "
+              "Graphic Designer ",
+              "Digital Marketing "
             ],
             typeSpeed: 100,
             backSpeed: 60,
@@ -44,7 +45,7 @@ export default function HomePage() {
                                         <h4>HELLO, MY NAME IS</h4>
                                         <h1>Manish verma</h1>
                                         <p className='typing_annimation'>A FREELANCE WEB <h6 className="typing"></h6></p>
-                                        <Button className='all_btns'>My Portfolio</Button>
+                                        <Button className='all_btns'>Contact Us</Button>
                                     </div>
                                 </Col>
                                 <Col md={5}>
