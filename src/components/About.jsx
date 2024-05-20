@@ -11,7 +11,7 @@ export default function About() {
                         <Row>
                             <Col md={5}>
                                 <div className='Image_left_side_banner_down'>
-                                    <img alt='banner_down_img' src='../images/banner_down.png'></img>
+                                    <img alt='banner_down_img' src='../images/IMG_8836.jpg'></img>
                                 </div>
                             </Col>
                             <Col md={7}>

@@ -8,6 +8,8 @@ import Biography from './components/Biography';
 import Skill from './components/Skill';
 import WorkFlow from './components/WorkFlow';
 import ClientReview from './components/ClientReview';
+import Blog from './components/Blog';
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Skill />
       <WorkFlow />
       <ClientReview />
+      <Blog/>
+      <ContactForm/>
     </div>
   );
 }

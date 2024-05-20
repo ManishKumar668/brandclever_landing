@@ -60,15 +60,17 @@ export default function ClientReview() {
                             {
                                 reviews.data.slice(0, 10).map((ele, key) => {
                                     return (
-                                        <div className='slider_border_set_sec' key={key}>
-                                            <div className='slider_main_work_sec'>
-                                                <div className='top_img_set_slide'>
+                                        <div className='clien_review' key={key}>
+                                            <div className='client_reviews_main'>
+                                                <div className='top_img_set_slide_client_rewiew'>
+                                                    <div className='flex_client_reviews_top'>
                                                     <img src={ele.image} alt={ele.name} height="100px" width="100px" />
                                                     <div className='name_count'>
-                                                        <p className="name">{ele.name}</p>
+                                                        <p className="name">{ele.   name}</p>
                                                         <p className="country"> {ele.country}</p>
                                                     </div>
-                                                    <p>{ele.review}</p>
+                                                    </div>
+                                                    <p>{ele.review.substring(0,200)}...</p>
                                                 </div>
 
                                             </div>
