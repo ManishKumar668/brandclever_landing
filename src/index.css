@@ -341,14 +341,22 @@ section.about_story.padding_top_down .icon_set_about_me_sec {
   background-image: url('https://pxdraft.com/themeforest/keira/keira/static/img/portfolio-4.jpg');
   background-position: center;
   background-size: cover;
-  height: 400px;
+  height:270px;
   position: relative;
 }
 .top_img_set_slide.seond_img{
   background-image: url('https://pxdraft.com/themeforest/keira/keira/static/img/portfolio-1.jpg');
   background-position: center;
   background-size: cover;
-  height: 400px;
+  height:270px;
+  position: relative;
+}
+
+.top_img_set_slide .third_img_sec{
+  background-image: url('https://pxdraft.com/themeforest/keira/keira/static/img/portfolio-5.jpg');
+  background-position: center;
+  background-size: cover;
+  height:270px;
   position: relative;
 }
 section.about_story.padding_top_down.slider_section {
@@ -408,4 +416,13 @@ span.theme-after.theme-color:after {
   background: #fff;
   margin: 7px 10px;
   border-radius: 5px;
+}
+ul.slick-dots li.slick-active button:before {
+  font-size: 16px;
+  color: #292929 !important;
+}
+.slick-dots li button:before {
+  font-size: 16px !important;
+  opacity: unset !important;
+  color:#aaaaaa !important;
 }
