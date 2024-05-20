@@ -337,35 +337,14 @@ section.about_story.padding_top_down .icon_set_about_me_sec {
   font-weight: 500;
   text-transform: uppercase;
 }
-.top_img_set_slide{
-  background-image: url('https://pxdraft.com/themeforest/keira/keira/static/img/portfolio-4.jpg');
-  background-position: center;
-  background-size: cover;
-  height:270px;
-  position: relative;
-}
-.top_img_set_slide.seond_img{
-  background-image: url('https://pxdraft.com/themeforest/keira/keira/static/img/portfolio-1.jpg');
-  background-position: center;
-  background-size: cover;
-  height:270px;
-  position: relative;
-}
 
-.top_img_set_slide .third_img_sec{
-  background-image: url('https://pxdraft.com/themeforest/keira/keira/static/img/portfolio-5.jpg');
-  background-position: center;
-  background-size: cover;
-  height:270px;
-  position: relative;
-}
 section.about_story.padding_top_down.slider_section {
   position: relative;
   padding: 0px 0px 0px 0px;
 }
 .image_up_icn_set {
   position: absolute;
-  bottom: 0;
+  bottom: 92px;
   background: rgb(149 149 149 / 42%);
   left: 0;
   right: 0;
@@ -425,4 +404,35 @@ ul.slick-dots li.slick-active button:before {
   font-size: 16px !important;
   opacity: unset !important;
   color:#aaaaaa !important;
+}
+.slider_main_work_sec {
+  position: relative;
+}
+
+.custom-modal .modal-body {
+  position: relative;
+  padding: 0;
+}
+
+.custom-modal .modal-body img {
+  width: 100%;
+  height: auto;
+}
+
+.prev-button, .next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  z-index: 1050;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
 }

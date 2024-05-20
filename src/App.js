@@ -7,6 +7,7 @@ import Counter from './components/Counter';
 import Biography from './components/Biography';
 import Skill from './components/Skill';
 import WorkFlow from './components/WorkFlow';
+import ClientReview from './components/ClientReview';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Biography />
       <Skill />
       <WorkFlow />
+      <ClientReview />
     </div>
   );
 }

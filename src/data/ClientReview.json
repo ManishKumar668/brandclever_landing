@@ -1,0 +1,159 @@
+{
+    "data": [
+        {
+          "id": 1,
+          "name": "David",
+          "country": "Israel",
+          "technology": "WordPress Plugin",
+          "review": "Working with Brandclever was a real pleasure. They are professional, communicative, and always available. I will definitely like to work with them in the future!",
+          "rating":5,
+          "image":"/images/client/1.avif"
+        },
+        {
+          "id": 2,
+          "name": "JP",
+          "country": "Netherland",
+          "technology": "CS-Cart",
+          "review": "A talented, dedicated and very nice professional. Great communication. Thank you very much for all your help.",
+          "rating":5,
+          "image":"/images/client/2.avif"
+        },
+        {
+          "id": 3,
+          "name": "Simone",
+          "country": "Australia",
+          "technology": "Wordpress",
+          "review": "I would highly recommend Brandclever. It was a pleasure working with Manish. He wrote clean, well-commented code, followed instructions without a problem, and voluntarily sent me a status update. I'd give him 6 stars if I could.",
+          "rating":5,
+          "image":"/images/client/3.avif"
+        },
+        {
+          "id": 4,
+          "name": "Alex",
+          "country": "United kingdom",
+          "technology": "Wordpress",
+          "review": "Brandclever is very well structured and organized. They give very clear instructions on any technical questions. They clearly know their way around web builds. Their communication is very consistent and always find the time to carry out the work fast. I look forward to working with them again.",
+          "rating":5,
+          "image":"/images/client/4.jpeg"
+        },
+        {
+          "id": 5,
+          "name": "Solomon ",
+          "country": "United state",
+          "technology": "Zoho CRM",
+          "review": "Excellent help with setting up Zoho CRM. Was very easy to work with help and took charge of our project. Will work with again. Thank you.Our project was related to CRM implementation. Shobha was very helpful and completed the tasks we needed",
+          "rating":5,
+          "image":"/images/client/5.avif"
+        },
+        {
+          "id": 6,
+          "name": "Kathy",
+          "country": "United States",
+          "technology": "WordPress",
+          "review": "The project started, was done, and completed in an exceptional, 10-star way. Mansi, Manish and his team were great on all levels: communication, documentation, UX designs, planning, implementation, and always on time. I highly recommend Mansi, Manish and his team.",
+          "rating":5,
+          "image":"/images/client/6.avif"
+        },
+        {
+          "id": 7,
+          "name": "Adam",
+          "country": "United Kingdom",
+          "technology":"CRM database front end + backend programmer ",
+          "review":"Very very satisfied with Manish. He did an outstanding job! I had a complicatedmultilayered project for him and he did everything exactly as asked. Satisfied myexpectations.Will try to work with Manish again in the future when I can.",
+          "rating":5,
+          "image":"/images/client/1.avif"
+        },
+        {
+          "id": 8,
+          "name": "Kevin Tir",
+          "country": "Sweden",
+          "technology": "Experienced Developer Needed for Klarna Checkout (KCO) Module Integration withPrestaShop ",
+          "review": "I had the pleasure of working with Manish on the development of our Prestashop module for Klarna payments. From start to finish, Manish impressed with his professionalism, technical expertise, and swift communication. The module he delivered exceeded our expectations and integrated seamlessly into our online store. I particularly appreciated his proactive approach to addressing potential issues and his willingness to go the extra mile to ensure everything worked perfectly. I wholeheartedly recommend Manish to anyone in need of a reliable and talented developer. Thank you for the outstanding work!",
+          "rating":5,
+          "image":"/images/client/2.avif"
+        },
+        {
+          "id": 9,
+          "name": "Darrell",
+          "country": "Canada",
+          "technology": "Wix",
+          "review":"Beast mode. He met his deadlines, showed all his work, communicated everything, and ensured proper delivery for everything! Highly recommended and you'll definitely get your needs met!",
+          "rating":5,
+          "image":"/images/client/3.avif"
+        },
+        {
+          "id": 10,
+          "name": "Luigino",
+          "country": "Italy",
+          "technology": "Twilio and Segment integration into qualtrics",
+          "review": "Manish is a very helpful, competent person who pursues a good result to the end.",
+          "rating":5,
+          "image":"/images/client/4.jpeg"
+        },
+        {
+          "id": 11,
+          "name": "Darleen",
+          "country": "Philipines",
+          "technology": "GMB account and API",
+          "review": "Yogesh helped us set up our GMB account and API. It was a smooth process, very well at communication, and work ethic. I would want to work with him again in the future.",
+          "rating":5,
+          "image":"/images/client/5.avif"
+        },
+        {
+          "id": 12,
+          "name": "Heidi Maybee ",
+          "country": "United state",
+          "technology": "Finish A UGC Website Portfolio With Videos Uploaded",
+          "review": "Extremely talented and professional! Met deadlines and answered all requirements! Thank you very much for all your support and dedication. I'm hopeful that will meet on another project!",
+          "rating":5,
+          "image":"/images/client/6.avif" 
+        },
+        {
+          "id": 13,
+          "name": "Heather Elsayed",
+          "country": "United States",
+          "technology": "Website Design",
+          "review": "Indu is a great communicator, thorough, and makes sure to deliver exactly what the customer requests. She was able to build a website I love and really reflected my personality. She brought to light descriptions of what I envisioned for it- but put her own touches into the website to make it stand out. I will definitely be working with Indu again with future projects!",
+          "rating":5,
+          "image":"/images/client/1.avif" 
+        },
+        {
+          "id": 14,
+          "name": "Derek Davis",
+          "country": "United States",
+          "technology": "Bigcommerce",
+          "review": "Indu did an amazing job on our project with quick turnaround. Will definitely use her for future tasks.",
+          "rating":5,
+          "image":"/images/client/2.avif"
+        },
+        {
+          "id": 15,
+          "name": "Joshua Lloyd",
+          "country": "United States",
+          "technology": "Wix ",
+          "review": " Their team handled a mistake on my part of the project's scope very professionally, referring to previous messaging, politely and conscientiously until my main team, could understand the conflicted message we had brought to them.We would rehire them without a doubt. They are very professional and considerate",
+          "rating":5,
+          "image":"/images/client/3.avif"
+        },
+        {
+          "id": 16,
+          "name": " Jacob Hershberg,",
+          "country": "Israel ",
+          "technology": "Moodle ",
+          "review": "I liked working together, looking forwards for more work in the future.",
+          "rating":5,
+          "image":"/images/client/4.jpeg"
+        },
+        {
+          "id": 17,
+          "name": "Judi",
+          "country": "United state",
+          "technology": "Web Development and SEO Specialist",
+          "review": "Shalu and her partner did an excellent job - not only with the verbage, but cleaning up my site to make it more clear and concise for my customers. She also added SEO (which I had no knowledge of how to do it). I had a few tweaks and she did what I asked of her - making my site light and welcoming. If need be I would definitely use her again.Thank you Shula, Judi - Amazing Love Embroidered Cards Judi ",
+          "rating":5,
+          "image":"/images/client/5.avif"
+        }
+      ]
+      
+  }
+  
