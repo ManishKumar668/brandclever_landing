@@ -50,7 +50,7 @@ export default function HomePage() {
                                 </Col>
                                 <Col md={5}>
                                     <div className='banner_right_side_img'>
-                                        <img alt="banner img" src='../images/banner.png'></img>
+                                        <img alt="banner img" src='../images/manish_verma.png'></img>
                                     </div>
                                 </Col>
                             </Row>

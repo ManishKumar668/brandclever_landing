@@ -21,7 +21,7 @@ export default function Biography() {
                             
                                 <Col md={4}>
                                     <div className='left_side_image_story'>
-                                        <img alt='left_girl' src='../images/left_side_girl.jpg'></img>
+                                        <img alt='left_girl' src='../images/IMG_4606.jpg'></img>
                                     </div>
                                 </Col>
                                 <Col md={4}>

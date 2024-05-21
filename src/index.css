@@ -28,8 +28,8 @@ code {
     monospace;
 }
 .Start_top_section {
-  background-color: #c8ced7 !important;
-  padding: 20px 0px;
+  background-color: #c8ced7!important;
+  padding: 20px 0px 0px 0px;
 }
 .Start_top_section .container .col-md-7 .left_side_banner_text h4 {
   color: #292929;
@@ -103,6 +103,7 @@ button.all_btns:hover{
   font-weight: 400;
 }
 .Image_left_side_banner_down img {
+  height: 645px;
   width: 100%;
 }
 .Banner_down_section .banner_down_about_me_start h2 {

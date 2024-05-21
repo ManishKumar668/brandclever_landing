@@ -36,7 +36,7 @@ export default function Blog() {
                                         </h4>
                                         <p>
                                             I design and develop services for customers of all sizes, specializing
-                                            in creating stylish, modern websites, web services and online stores.
+                                            in creating stylish, modern websites, web services and online stores and digital marketing.
                                         </p>
                                         <a className="theme-bg more" href="#">
                                             Read More
