@@ -54,7 +54,7 @@ const Counter = () => {
     };
   }, []);
   return (
-    <section className="counter_start_here" ref={counterSectionRef}>
+    <section className="counter_start_here overlay_set" ref={counterSectionRef}>
       <Container>
 
         <Row className="counter-section">

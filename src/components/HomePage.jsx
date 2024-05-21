@@ -3,7 +3,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 import Typed from "typed.js";
 
 
-export default function HomePage() {
+export default function HomePage({onScrollToContact}) {
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
@@ -45,7 +45,7 @@ export default function HomePage() {
                                         <h4>HELLO, MY NAME IS</h4>
                                         <h1>Manish verma</h1>
                                         <p className='typing_annimation'>A FREELANCE WEB <h6 className="typing"></h6></p>
-                                        <Button className='all_btns'>Contact Us</Button>
+                                        <Button className='all_btns' onClick={onScrollToContact}>Contact Us</Button>
                                     </div>
                                 </Col>
                                 <Col md={5}>

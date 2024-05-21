@@ -4,11 +4,11 @@ import { CgMail } from 'react-icons/cg'
 import { FaMapMarkerAlt } from 'react-icons/fa'
 import { FaMobileScreen } from 'react-icons/fa6'
 
-export default function ContactForm() {
+export default function ContactForm({contactSectionRef}) {
     return (
         <div>
-            <section className='about_story padding_top_down slider_section client_review'>
-                <Container>
+            <section className='about_story padding_top_down slider_section client_review' ref={contactSectionRef}>
+                <Container >
                     <div className='about_us_section_main_start'>
                         <div className='top_text_about'>
                             <div className='first_line_main'>
@@ -23,31 +23,31 @@ export default function ContactForm() {
                     <div className='form_conact_main_start'>
                         <div className="row">
                             <div className="col-md-12 col-lg-4">
-                            <div className="contact-info">
-                                        <div className="ci-row">
-                                            <CgMail />
-                                            <label>For Information</label>
-                                            <span>info@domain.com</span>
-                                        </div>
-                                        <div className="ci-row">
-                                            <CgMail />
-                                            <label>For Support</label>
-                                            <span>info@domain.com</span>
-                                        </div>
-                                        <div className="ci-row">
-                                            <FaMobileScreen />
-                                            <label>Talk with us</label>
-                                            <span>1800 108 5252</span>
-                                        </div>
-                                        <div className="ci-row">
-                                            <FaMapMarkerAlt />
-                                            <label>Address</label>
-                                            <span>
-                                                301 The Greenhouse,
-                                                <br /> London, E2 8DY.
-                                            </span>
-                                        </div>
+                                <div className="contact-info">
+                                    <div className="ci-row">
+                                        <CgMail />
+                                        <label>For Information</label>
+                                        <span>info@domain.com</span>
                                     </div>
+                                    <div className="ci-row">
+                                        <CgMail />
+                                        <label>For Support</label>
+                                        <span>info@domain.com</span>
+                                    </div>
+                                    <div className="ci-row">
+                                        <FaMobileScreen />
+                                        <label>Talk with us</label>
+                                        <span>1800 108 5252</span>
+                                    </div>
+                                    <div className="ci-row">
+                                        <FaMapMarkerAlt />
+                                        <label>Address</label>
+                                        <span>
+                                            301 The Greenhouse,
+                                            <br /> London, E2 8DY.
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                             <div className="col-md-12 col-lg-8">
                                 <div className="contact-form">

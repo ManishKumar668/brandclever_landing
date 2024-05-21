@@ -1,5 +1,7 @@
 
+import { useRef } from 'react';
 import './index.css';
+import './responsive.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './components/HomePage';
 import About from './components/About';
@@ -10,19 +12,37 @@ import WorkFlow from './components/WorkFlow';
 import ClientReview from './components/ClientReview';
 import Blog from './components/Blog';
 import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
+import PriceList from './components/PriceList';
 
 function App() {
+
+  const contactSectionRef = useRef(null);
+
+  const handleScrollToContact = () => {
+    const target = contactSectionRef.current;
+
+    if (target) {
+      window.scrollTo({
+        top: target.offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <div>
-      <HomePage />
+      <HomePage onScrollToContact={handleScrollToContact} />
       <About />
       <Counter />
       <Biography />
       <Skill />
       <WorkFlow />
       <ClientReview />
-      <Blog/>
-      <ContactForm/>
+      <Blog />
+      <PriceList />
+      <ContactForm contactSectionRef={contactSectionRef} />
+      <Footer />
     </div>
   );
 }
