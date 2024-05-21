@@ -70,9 +70,9 @@ export default function About() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='About_down_button'>
+                                    {/* <div className='About_down_button'>
                                         <Button className='all_btns'>My services</Button>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </Col>
                         </Row>

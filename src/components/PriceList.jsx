@@ -28,9 +28,9 @@ export default function () {
         data-aos-duration={1200}
       >
         <div className="single-price white-bg shadow-hover transition3 border-radius12 pl-45 pr-45 pt-45 pb-50 mb-30">
-          <h4 className="theme-border-bottom pb-25">Hourly</h4>
+          <h4 className="theme-border-bottom pb-25">Seo</h4>
           <h6 className="mt-20 mb-20">
-            <span className="theme-color rate pr-12">$99</span>/ Per Hour
+            <span className="theme-color rate pr-12">$399</span>/ Per Hour
           </h6>
           <ul className="price-list">
             <li className="d-flex align-items-center">
@@ -68,7 +68,7 @@ export default function () {
             href="#"
             className="btn position-relative over-hidden text-white theme-bg text-white text-capitalize mt-25"
           >
-            Start now
+            Get Start
           </a>
         </div>
         {/* / */}
@@ -81,9 +81,9 @@ export default function () {
         data-aos-duration={1400}
       >
         <div className="single-price white-bg shadow-hover transition3 border-radius12 pl-45 pr-45 pt-45 pb-50 mb-30">
-          <h4 className="theme-border-bottom pb-25">Project Basis</h4>
+          <h4 className="theme-border-bottom pb-25">Social Media</h4>
           <h6 className="mt-20 mb-20">
-            <span className="theme-color rate pr-12">$69</span>/ Per Hour
+            <span className="theme-color rate pr-12">$399</span>/ Per Hour
           </h6>
           <ul className="price-list">
             <li className="d-flex align-items-center">
@@ -121,7 +121,7 @@ export default function () {
             href="#"
             className="btn position-relative over-hidden text-white theme-bg text-white text-capitalize mt-25"
           >
-            Start now
+            Get Start
           </a>
         </div>
         {/* / */}
@@ -134,9 +134,9 @@ export default function () {
         data-aos-duration={1600}
       >
         <div className="single-price white-bg shadow-hover transition3 border-radius12 pl-45 pr-45 pt-45 pb-50 mb-30">
-          <h4 className="theme-border-bottom pb-25">Monthly</h4>
+          <h4 className="theme-border-bottom pb-25">PPC</h4>
           <h6 className="mt-20 mb-20">
-            <span className="theme-color rate pr-12">$39</span>/ Per Hour
+            <span className="theme-color rate pr-12">$499</span>/ Per Hour
           </h6>
           <ul className="price-list">
             <li className="d-flex align-items-center">
@@ -174,7 +174,7 @@ export default function () {
             href="#"
             className="btn position-relative over-hidden text-white theme-bg text-white text-capitalize mt-25"
           >
-            Start now
+            Get Start
           </a>
         </div>
         {/* / */}

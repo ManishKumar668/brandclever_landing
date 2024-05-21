@@ -27,7 +27,7 @@ export default function ContactForm({contactSectionRef}) {
                                     <div className="ci-row">
                                         <CgMail />
                                         <label>For Information</label>
-                                        <span>info@domain.com</span>
+                                        <span>manishdoraha1@gmail.com</span>
                                     </div>
                                     <div className="ci-row">
                                         <CgMail />
@@ -37,7 +37,7 @@ export default function ContactForm({contactSectionRef}) {
                                     <div className="ci-row">
                                         <FaMobileScreen />
                                         <label>Talk with us</label>
-                                        <span>1800 108 5252</span>
+                                        <span>+91-98772 68100</span>
                                     </div>
                                     <div className="ci-row">
                                         <FaMapMarkerAlt />
@@ -69,7 +69,7 @@ export default function ContactForm({contactSectionRef}) {
                                                 <div className="form-group">
                                                     <input
                                                         name="Email"
-                                                        placeholder="Emaile"
+                                                        placeholder="Email"
                                                         className="form-control"
                                                         type="email"
                                                     />
@@ -79,10 +79,10 @@ export default function ContactForm({contactSectionRef}) {
                                             <div className="col-md-12">
                                                 <div className="form-group">
                                                     <input
-                                                        name="Subject"
-                                                        placeholder="Subject"
+                                                        name="number"
+                                                        placeholder="Number"
                                                         className="form-control"
-                                                        type="text"
+                                                        type="number"
                                                     />
                                                     <span className="input-focus-effect" />
                                                 </div>
@@ -90,8 +90,8 @@ export default function ContactForm({contactSectionRef}) {
                                             <div className="col-md-12">
                                                 <div className="form-group">
                                                     <textarea
-                                                        name="comment"
-                                                        placeholder="Describe your project"
+                                                        name="message"
+                                                        placeholder="Message"
                                                         rows={3}
                                                         className="form-control"
                                                         defaultValue={""}

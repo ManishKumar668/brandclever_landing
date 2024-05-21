@@ -6,6 +6,9 @@
     }
 
 @media (max-width: 992px) {
+    .top-counter {
+        gap: 20px;
+    }
 
         .Start_top_section .container .col-md-7 .left_side_banner_text p {
             height: 30px;
@@ -50,8 +53,15 @@
 
 @media (max-width: 768px) {
 
+    .top-counter {
+        gap: 70px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width:480px) {
-
+    .Banner_down_section .down_four_div_about {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

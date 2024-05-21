@@ -26,9 +26,9 @@ export default function Blog() {
                                         <a href="#">
                                             <img src="https://pxdraft.com/themeforest/keira/keira/static/img/blog-img2.jpg" title="" alt="" />
                                         </a>
-                                        <div className="post-meta">
+                                        {/* <div className="post-meta">
                                             By <a href="">John Doe</a> <span>03.02.2018</span>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="blog-content">
                                         <h4 className="font-alt">
@@ -52,9 +52,9 @@ export default function Blog() {
                                         <a href="#">
                                             <img src="https://pxdraft.com/themeforest/keira/keira/static/img/blog-img4.jpg" title="" alt="" />
                                         </a>
-                                        <div className="post-meta">
+                                        {/* <div className="post-meta">
                                             By <a href="">John Doe</a> <span>03.02.2018</span>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="blog-content">
                                         <h4 className="font-alt">
@@ -79,9 +79,9 @@ export default function Blog() {
                                         <a href="#">
                                             <img src="https://pxdraft.com/themeforest/keira/keira/static/img/blog-img3.jpg" title="" alt="" />
                                         </a>
-                                        <div className="post-meta">
+                                        {/* <div className="post-meta">
                                             By <a href="">John Doe</a> <span>03.02.2018</span>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="blog-content">
                                         <h4 className="font-alt">

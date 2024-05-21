@@ -95,7 +95,7 @@ export default function WorkFlow() {
                                                         <img src={`${process.env.PUBLIC_URL}/${ele.image}`} alt={ele.image} />
                                                     </div>
                                                     <div className='image_up_icn_set'>
-                                                        <span> <HiMiniPlay />  </span>
+                                                        {/* <span> <HiMiniPlay />  </span> */}
                                                         <span onClick={() => handleShow(key)}><MdFullscreen />  </span>
                                                         <span> <Nav.Link href={ele.link} target="_blank"><FaLink /> </Nav.Link>  </span>
                                                     </div>
