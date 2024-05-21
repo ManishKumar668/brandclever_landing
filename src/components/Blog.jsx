@@ -20,7 +20,7 @@ export default function Blog() {
                     </div>
                     <div className='blog_main_section'>
                         <div className="row">
-                            <div className="col-md-4">
+                            <div className="col-md-4 set_blogs_responsive">
                                 <div className="blog-item">
                                     <div className="blog-img">
                                         <a href="#">
@@ -46,7 +46,7 @@ export default function Blog() {
                                 </div>{" "}
                                 {/* Blog Item */}
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4 set_blogs_responsive">
                                 <div className="blog-item">
                                     <div className="blog-img">
                                         <a href="#">
@@ -73,7 +73,7 @@ export default function Blog() {
                                 </div>{" "}
                                 {/* Blog Item */}
                             </div>
-                            <div className="col-md-4  ">
+                            <div className="col-md-4  set_blogs_responsive">
                                 <div className="blog-item">
                                     <div className="blog-img">
                                         <a href="#">

@@ -92,7 +92,7 @@ export default function WorkFlow() {
                                             <div className='slider_main_work_sec'>
                                                 <div className='top_img_set_slide'>
                                                     <div className='project_img'>
-                                                        <img src={ele.image} alt={ele.image} />
+                                                        <img src={`${process.env.PUBLIC_URL}/${ele.image}`} alt={ele.image} />
                                                     </div>
                                                     <div className='image_up_icn_set'>
                                                         <span> <HiMiniPlay />  </span>

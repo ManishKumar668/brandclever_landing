@@ -784,3 +784,12 @@ color: #fff;
 .wrong_icn{
   color:#ccd2d3 !important;
 }
+img.not_show_desktop {
+  display: none;
+}
+.banner_right_side_img img {
+  width: 78%;
+}
+.banner_right_side_img {
+  text-align: center;
+}

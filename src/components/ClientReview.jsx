@@ -64,13 +64,14 @@ export default function ClientReview() {
                                             <div className='client_reviews_main'>
                                                 <div className='top_img_set_slide_client_rewiew'>
                                                     <div className='flex_client_reviews_top'>
-                                                    <img src={ele.image} alt={ele.name} height="100px" width="100px" />
-                                                    <div className='name_count'>
-                                                        <p className="name">{ele.   name}</p>
-                                                        <p className="country"> {ele.country}</p>
+
+                                                        <img src={`${process.env.PUBLIC_URL}${ele.image}`} alt={ele.name} height="100px" width="100px" />
+                                                        <div className='name_count'>
+                                                            <p className="name">{ele.name}</p>
+                                                            <p className="country"> {ele.country}</p>
+                                                        </div>
                                                     </div>
-                                                    </div>
-                                                    <p>{ele.review.substring(0,200)}...</p>
+                                                    <p>{ele.review.substring(0, 200)}...</p>
                                                 </div>
 
                                             </div>

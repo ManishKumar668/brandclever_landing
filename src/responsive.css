@@ -4,3 +4,54 @@
         gap: 70px;
     }
     }
+
+@media (max-width: 992px) {
+
+        .Start_top_section .container .col-md-7 .left_side_banner_text p {
+            height: 30px;
+        }
+        .Start_top_section {
+            background-color: #c8ced7!important;
+            padding: 50px 0px 50px 0px;
+        }
+        img.not_show_desktop {
+            width: 100%;
+            display: block;
+            height: 100%;
+        }
+        img.desktop_ims_show {
+            display: none;
+        }
+        .About_row_sec.row {
+            display: block;
+        }
+        .About_left_side_set.col-md-5 {
+            width: 100%;
+        }
+        .Banner_down_section .banner_down_about_me_start {
+            padding-left: 0px;
+            padding-top: 30px;
+        }
+        .About_right_side_set.col-md-7 {
+            width: 100%;
+        }
+        .left_side_banner_text h4 {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .Start_top_section .container .col-md-7 .left_side_banner_text h1 {
+            font-size: 38px;
+            font-weight: 600;
+            margin: 0 0 15px -6px;
+            line-height: 38px;
+        }
+      
+    }
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width:480px) {
+
+}

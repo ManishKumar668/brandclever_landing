@@ -60,7 +60,7 @@ export default function Skill() {
                             <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
                         </div>
                         <Row ref={sectionRef}>
-                            <Col md={4}>
+                            <Col md={4} className='Slill_responsive_set'>
                                 <div className='First_message_box'>
                                     <div class="skill-left">
                                         <h3 class="font-alt">Make beauty Things With Passion.</h3>
@@ -68,7 +68,7 @@ export default function Skill() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col md={4}>
+                            <Col md={4} className='Slill_responsive_set'> 
                                 <div className='progress_des'>
                                     <p>WEB DESIGN</p>
                                     <p>92%</p>
@@ -91,7 +91,7 @@ export default function Skill() {
                                 <ProgressBar now={progressValues.css3} />
 
                             </Col>
-                            <Col md={4}>
+                            <Col md={4} className='Slill_responsive_set'>
                                 <div className='progress_des'>
                                     <p>WEB DEVELOPMENT</p>
                                     <p>92%</p>

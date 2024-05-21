@@ -39,7 +39,7 @@ export default function HomePage({onScrollToContact}) {
                 <div className='container-fluid'>
                     <div className='Start_top_section'>
                         <Container>
-                            <Row>
+                            <Row className='Hello_top_sec'>
                                 <Col md={7} className='Set_banner_left_side'>
                                     <div className='left_side_banner_text'>
                                         <h4>HELLO, MY NAME IS</h4>
@@ -48,9 +48,9 @@ export default function HomePage({onScrollToContact}) {
                                         <Button className='all_btns' onClick={onScrollToContact}>Contact Us</Button>
                                     </div>
                                 </Col>
-                                <Col md={5}>
+                                <Col md={5} className='Set_banner_right_side'>
                                     <div className='banner_right_side_img'>
-                                        <img alt="banner img" src='../images/manish_verma.png'></img>
+                                        <img alt="banner img" src={`${process.env.PUBLIC_URL}/images/manish_verma.png`}></img>
                                     </div>
                                 </Col>
                             </Row>
