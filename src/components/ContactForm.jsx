@@ -1,10 +1,70 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
+import axios from 'axios'
+import React, { useState } from 'react'
+import { Container, Nav } from 'react-bootstrap'
 import { CgMail } from 'react-icons/cg'
 import { FaMapMarkerAlt } from 'react-icons/fa'
 import { FaMobileScreen } from 'react-icons/fa6'
+import { toast } from 'react-toastify'
 
-export default function ContactForm({contactSectionRef}) {
+export default function ContactForm({ contactSectionRef }) {
+
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        number: "",
+        message: "",
+    })
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
+
+
+    const handlSubmit = async (e) => {
+        e.preventDefault();
+        if (!formData.name) {
+            toast.error("Name is Required!");
+            return;
+        }
+        if (!formData.email) {
+            toast.error("Email is Required!");
+            return;
+        }
+        if (!emailRegex.test(formData.email)) {
+            toast.error("Email is not valid!");
+            return
+        }
+        if (!formData.message) {
+            toast.error("Message Field is Required!");
+            return;
+        }
+
+        console.log("formData", formData)
+
+        try {
+            const res = await axios.post('https://developer.brandclever.in/brand/admin/form/landing_page_data.php', formData, {
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            if (res.data.status) {
+                toast.success("Data submited successfully!")
+                setFormData({
+                    name: "",
+                    email: "",
+                    number: "",
+                    message: ""
+                })
+                return;
+            }
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            toast.error("Error in submit data")
+        }
+    }
+
     return (
         <div>
             <section className='about_story padding_top_down slider_section client_review' ref={contactSectionRef}>
@@ -27,7 +87,7 @@ export default function ContactForm({contactSectionRef}) {
                                     <div className="ci-row">
                                         <CgMail />
                                         <label>For Information</label>
-                                        <span>manishdoraha1@gmail.com</span>
+                                        <Nav.Link href='mailto:manishdoraha1@gmail.com'><span>manishdoraha1@gmail.com</span></Nav.Link>
                                     </div>
                                     <div className="ci-row">
                                         <CgMail />
@@ -37,7 +97,7 @@ export default function ContactForm({contactSectionRef}) {
                                     <div className="ci-row">
                                         <FaMobileScreen />
                                         <label>Talk with us</label>
-                                        <span>+91-98772 68100</span>
+                                        <Nav.Link href='tel:+919872711866'><span>+91-98772 68100</span></Nav.Link>
                                     </div>
                                     <div className="ci-row">
                                         <FaMapMarkerAlt />
@@ -52,15 +112,17 @@ export default function ContactForm({contactSectionRef}) {
                             <div className="col-md-12 col-lg-8">
                                 <div className="contact-form">
                                     <h2>Say Something</h2>
-                                    <form>
+                                    <form onSubmit={handlSubmit}>
                                         <div className="row">
                                             <div className="col-md-6">
                                                 <div className="form-group">
                                                     <input
-                                                        name="Phone"
-                                                        placeholder="Name"
+                                                        name="name"
+                                                        placeholder="Name *"
                                                         className="form-control"
                                                         type="text"
+                                                        onChange={handleChange}
+                                                        value={formData.name}
                                                     />
                                                     <span className="input-focus-effect" />
                                                 </div>
@@ -68,10 +130,12 @@ export default function ContactForm({contactSectionRef}) {
                                             <div className="col-md-6">
                                                 <div className="form-group">
                                                     <input
-                                                        name="Email"
-                                                        placeholder="Email"
+                                                        name="email"
+                                                        placeholder="Email *"
                                                         className="form-control"
-                                                        type="email"
+                                                        type="text"
+                                                        onChange={handleChange}
+                                                        value={formData.email}
                                                     />
                                                     <span className="input-focus-effect" />
                                                 </div>
@@ -83,6 +147,8 @@ export default function ContactForm({contactSectionRef}) {
                                                         placeholder="Number"
                                                         className="form-control"
                                                         type="number"
+                                                        onChange={handleChange}
+                                                        value={formData.number}
                                                     />
                                                     <span className="input-focus-effect" />
                                                 </div>
@@ -91,17 +157,19 @@ export default function ContactForm({contactSectionRef}) {
                                                 <div className="form-group">
                                                     <textarea
                                                         name="message"
-                                                        placeholder="Message"
+                                                        placeholder="Message *"
                                                         rows={3}
                                                         className="form-control"
                                                         defaultValue={""}
+                                                        onChange={handleChange}
+                                                        value={formData.message}
                                                     />
                                                     <span className="input-focus-effect" />
                                                 </div>
                                             </div>
                                             <div className="col-md-12">
                                                 <div className="send">
-                                                    <button className="m-btn m-btn-theme">
+                                                    <button className="m-btn m-btn-theme" type='submit'>
                                                         <i className="fa fa-envelope-o" aria-hidden="true" />
                                                         Send
                                                     </button>

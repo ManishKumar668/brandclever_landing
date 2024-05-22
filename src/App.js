@@ -14,6 +14,8 @@ import Blog from './components/Blog';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import PriceList from './components/PriceList';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
 
@@ -32,6 +34,7 @@ function App() {
 
   return (
     <div>
+      <ToastContainer position="top-right" />
       <HomePage onScrollToContact={handleScrollToContact} />
       <About />
       <Counter />
