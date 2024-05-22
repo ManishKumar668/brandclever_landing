@@ -13,39 +13,39 @@ export default function Footer() {
                             Manish Verma <span />
                         </span>
                     </div>
-                    <ul className="social-icons">
-                        <li>
-                            <Nav.Link href="https://www.upwork.com/freelancers/~01d672b038a81f6f0f" target='_blank'>
-                                <FaUpwork />
-                            </Nav.Link>
-                        </li>
-                        <li>
-                            <Nav.Link href="https://www.facebook.com/people/Manish-Verma/pfbid0YV2V8eNSm6nZisqjVAHWhwLncELXDzSTUR23SDHf6H3HpGHKCPT4FBp6WGR6xMevl/" target='_blank'>
-                                <FaFacebookF />
-                            </Nav.Link>
-                        </li>
-                        <li>
-                            <Nav.Link href="https://www.linkedin.com/in/manish-verma-brandcleverdotin/?original_referer=" target="_blank">
-                                <FaLinkedinIn />
-                            </Nav.Link>
-                        </li>
-                        <li>
-                            <Nav.Link href="https://www.instagram.com/maniflix/" target="_blank">
-                                <FaInstagram />
-                            </Nav.Link>
-                        </li>
-
-                        <li>
-                            <Nav.Link href="https://wa.me/9877268100" target="_blank">
-                                <FaWhatsapp />
-                            </Nav.Link>
-                        </li>
-
-                    </ul>
-                    <p className="copyright">
-                        © 2024 <a href="#">Manish Verma</a>. All Rights Reserved
-                    </p>
                 </div>
+                <ul className="social-icons">
+                    <li>
+                        <Nav.Link href="https://www.upwork.com/freelancers/~01d672b038a81f6f0f" target='_blank'>
+                            <FaUpwork />
+                        </Nav.Link>
+                    </li>
+                    <li>
+                        <Nav.Link href="https://www.facebook.com/people/Manish-Verma/pfbid0YV2V8eNSm6nZisqjVAHWhwLncELXDzSTUR23SDHf6H3HpGHKCPT4FBp6WGR6xMevl/" target='_blank'>
+                            <FaFacebookF />
+                        </Nav.Link>
+                    </li>
+                    <li>
+                        <Nav.Link href="https://www.linkedin.com/in/manish-verma-brandcleverdotin/?original_referer=" target="_blank">
+                            <FaLinkedinIn />
+                        </Nav.Link>
+                    </li>
+                    <li>
+                        <Nav.Link href="https://www.instagram.com/maniflix/" target="_blank">
+                            <FaInstagram />
+                        </Nav.Link>
+                    </li>
+
+                    <li>
+                        <Nav.Link href="https://wa.me/9877268100" target="_blank">
+                            <FaWhatsapp />
+                        </Nav.Link>
+                    </li>
+
+                </ul>
+                <p className="copyright">
+                    © 2024 <a href="#">Manish Verma</a>. All Rights Reserved
+                </p>
 
             </footer>
 

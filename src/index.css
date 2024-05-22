@@ -388,6 +388,10 @@ span.theme-after.theme-color:after {
   margin: auto;
   background-color:  #09c3b3 !important;
 }
+li.footr_facebook svg {
+  height: 18px;
+  margin-top: 15px;
+}
 .portfolio-info {
   padding: 20px;
   text-align: center;
@@ -395,9 +399,7 @@ span.theme-after.theme-color:after {
 .slider_border_set_sec {
   height: 100%;
   box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.08);
-  padding: 10px;
-  background: #fff;
-  margin: 7px 10px;
+  padding: 0px 15px 0px 0px;
   border-radius: 5px;
 }
 ul.slick-dots li.slick-active button:before {
@@ -538,14 +540,14 @@ section.about_story.padding_top_down.slider_section.blog_sec .blog-item {
   color: #fff;
 }
 .form_conact_main_start .contact-info {
-  padding: 25px;
+  padding: 20px 10px 0px 20px;
   margin-right: 25px;
   border: 1px solid #e7e5f7;
   height: 100%;
   background: #fff;
 }
 .form_conact_main_start .ci-row {
-  margin-bottom: 25px;
+  margin-bottom: 21px;
   position: relative;
   padding-left: 40px;
 }
@@ -614,9 +616,6 @@ section.about_story.padding_top_down.slider_section.blog_sec .blog-item {
   transition: ease all 0.3s;
   height: 2px;
   background: #26a69a;
-}
-.form-group textarea.form-control {
-  height: 100px;
 }
 .m-btn {
   height: 45px;
@@ -793,4 +792,8 @@ img.not_show_desktop {
 }
 .banner_right_side_img {
   text-align: center;
+}
+button.m-btn.m-btn-theme:hover {
+  background-color: #151515;
+  color: #fff;
 }
