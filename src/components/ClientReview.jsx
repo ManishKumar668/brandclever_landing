@@ -12,12 +12,13 @@ export default function ClientReview() {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
+        arrows:false,
         slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 2,
                     infinite: true,
                     dots: true
@@ -26,7 +27,7 @@ export default function ClientReview() {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 2,
                     initialSlide: 2
                 }

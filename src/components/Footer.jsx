@@ -13,7 +13,7 @@ export default function Footer() {
                             </span>
                         </div>
                         <ul className="social-icons">
-                            <li>
+                            <li className='footr_facebook'>
                                 <a href="#">
                                 <FaFacebookF />
                                 </a>

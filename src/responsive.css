@@ -3,9 +3,31 @@
     .top-counter {
         gap: 70px;
     }
+    section.about_story.padding_top_down .left_side_image_story {
+        height: auto;
+    }
+ 
     }
 
 @media (max-width: 992px) {
+    section.about_story.padding_top_down.slider_section.client_review .client_reviews_main {
+     height: auto; 
+    }
+    .padding_top_down {
+        padding: 50px 0px;
+    }
+    .about_us_section_main_start .row {
+        display: block;
+    }   
+    .about_us_section_main_start .col-md-4 {
+        width: 100% !important;
+    }
+    section.landing_banner_start .Start_top_section {
+        padding: 30px 0px 0px 0px !important;
+    }
+    section.about_story.padding_top_down .top_text_about {
+        max-width: 100%;
+    }
     .top-counter {
         gap: 20px;
     }
@@ -48,10 +70,44 @@
             margin: 0 0 15px -6px;
             line-height: 38px;
         }
+        .blog-item .blog-content p {
+            font-size: 12px;
+        }
+        .blog-item .blog-content h4 {
+            font-size: 15px;
+        }
+        .title.text-center h3 {
+            font-size: 45px;
+        }
+        .row.pricie-wrapper.justify-content-center.mt-80 .col-xl-4.col-lg-4.col-md-6.col-sm-8.col-12.aos-init {
+            margin-bottom: 26px !important;
+        }
+        .form_conact_main_start .contact-info {
+         margin-right: 0px; 
+        }
+        .col-md-12.col-lg-8 .contact-form {
+            margin-top: 20px;
+        }
+        .secondary-bg {
+            margin-top: 50px;
+            padding: 50px 0px 50px 0px;
+        }
+        .skill-left {
+            margin: 0 0px 20px 0px;
+        }
       
     }
 
 @media (max-width: 768px) {
+    .title.text-center h3 {
+        font-size: 35px;
+    }
+    section.counter_start_here {
+        padding: 50px 0px;
+    }
+    .blog_main_section .col-md-4 {
+        margin-bottom: 30px;
+    }
 
     .top-counter {
         gap: 70px;
@@ -61,6 +117,27 @@
 }
 
 @media (max-width:480px) {
+
+    .top-counter {
+        gap: 40px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    p {
+        font-size: 14px !important;
+    }
+    .banner_right_side_img img {
+        margin-top: 30px;
+    }
+    .Start_top_section h6.typing {
+        font-size: 15px;
+    }
+    .Start_top_section .container .col-md-7 .left_side_banner_text p {
+        font-size: 14px;
+    }
+    .Start_top_section .container .col-md-7 .left_side_banner_text h4 {
+        font-size: 14px;
+    }
     .Banner_down_section .down_four_div_about {
         grid-template-columns: repeat(1, 1fr);
     }
