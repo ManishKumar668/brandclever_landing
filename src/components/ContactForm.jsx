@@ -92,7 +92,7 @@ export default function ContactForm({ contactSectionRef }) {
                                     <div className="ci-row">
                                         <CgMail />
                                         <label>For Support</label>
-                                        <span>info@domain.com</span>
+                                        <Nav.Link href='mailto:shobha.brandclever@gmail.com'><span>shobha.brandclever@gmail.com</span></Nav.Link>
                                     </div>
                                     <div className="ci-row">
                                         <FaMobileScreen />
@@ -102,10 +102,11 @@ export default function ContactForm({ contactSectionRef }) {
                                     <div className="ci-row">
                                         <FaMapMarkerAlt />
                                         <label>Address</label>
-                                        <span>
-                                            301 The Greenhouse,
-                                            <br /> London, E2 8DY.
-                                        </span>
+                                        <Nav.Link href='https://www.google.com/maps/place/Brandclever/@30.711095,76.6900641,17z/data=!3m1!4b1!4m6!3m5!1s0x390fef8cd36051e7:0xdfdada19c12e600f!8m2!3d30.711095!4d76.6900641!16s%2Fg%2F11rc28htlw?entry=ttu' target='_blank'>
+                                            <span>
+                                                4th Floor, F-301, Bansal Tower, Phase 8B, Industrial Area, Sector 74, Brandclever, Sahibzada Ajit Singh Nagar, Punjab 160055
+                                            </span>
+                                        </Nav.Link>
                                     </div>
                                 </div>
                             </div>
