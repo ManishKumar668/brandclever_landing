@@ -30,7 +30,7 @@ export default function () {
         <div className="single-price white-bg shadow-hover transition3 border-radius12 pl-45 pr-45 pt-45 pb-50 mb-30">
           <h4 className="theme-border-bottom pb-25">Seo</h4>
           <h6 className="mt-20 mb-20">
-            <span className="theme-color rate pr-12">$399</span>/ Per Hour
+            <span className="theme-color rate pr-12">$399</span>/ Per Monthly
           </h6>
           <ul className="price-list">
             <li className="d-flex align-items-center">
@@ -83,7 +83,7 @@ export default function () {
         <div className="single-price white-bg shadow-hover transition3 border-radius12 pl-45 pr-45 pt-45 pb-50 mb-30">
           <h4 className="theme-border-bottom pb-25">Social Media</h4>
           <h6 className="mt-20 mb-20">
-            <span className="theme-color rate pr-12">$399</span>/ Per Hour
+            <span className="theme-color rate pr-12">$399</span>/ Per Monthly
           </h6>
           <ul className="price-list">
             <li className="d-flex align-items-center">
@@ -136,7 +136,7 @@ export default function () {
         <div className="single-price white-bg shadow-hover transition3 border-radius12 pl-45 pr-45 pt-45 pb-50 mb-30">
           <h4 className="theme-border-bottom pb-25">PPC</h4>
           <h6 className="mt-20 mb-20">
-            <span className="theme-color rate pr-12">$499</span>/ Per Hour
+            <span className="theme-color rate pr-12">$499</span>/ Per Monthly
           </h6>
           <ul className="price-list">
             <li className="d-flex align-items-center">
