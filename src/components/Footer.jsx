@@ -20,7 +20,7 @@ export default function Footer() {
                             <FaUpwork />
                         </Nav.Link>
                     </li>
-                    <li>
+                    <li className='footr_facebook'>
                         <Nav.Link href="https://www.facebook.com/people/Manish-Verma/pfbid0YV2V8eNSm6nZisqjVAHWhwLncELXDzSTUR23SDHf6H3HpGHKCPT4FBp6WGR6xMevl/" target='_blank'>
                             <FaFacebookF />
                         </Nav.Link>
