@@ -11,7 +11,7 @@ export default function About() {
                         <Row className='About_row_sec'>
                             <Col md={5} className='About_left_side_set'>
                                 <div className='Image_left_side_banner_down'>
-                                <img className='not_show_desktop' alt='banner_down_img' src={`${process.env.PUBLIC_URL}/images/manish_verna_aboutsec.jpg`}></img>
+                                    <img className='not_show_desktop' alt='banner_down_img' src={`${process.env.PUBLIC_URL}/images/manish_verna_aboutsec.jpg`}></img>
                                     <img className='desktop_ims_show' alt='banner_down_img' src={`${process.env.PUBLIC_URL}/images/manish_verma_about.jpg`}></img>
                                 </div>
                             </Col>
@@ -31,8 +31,9 @@ export default function About() {
                                                     <AiTwotonePicture />
                                                 </div>
                                                 <div className='Seond_side_text_about'>
-                                                    <h5>Graphic</h5>
-                                                    <p>Encapsulates a visually compelling and communicative piece of artwork or design.</p>
+                                                    <h5>Influencer marketing</h5>
+                                                    <p>Some may consider influencer marketing a subset of social media marketing, while others consider it a separate strategy.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -42,8 +43,8 @@ export default function About() {
                                                     <AiTwotonePicture />
                                                 </div>
                                                 <div className='Seond_side_text_about'>
-                                                    <h5>Web Design</h5>
-                                                    <p>Refers to the process of creating and arranging elements on a website in a visually appealing.</p>
+                                                    <h5>Search engine marketing</h5>
+                                                    <p>In recent years, SEM has become associated mainly with PPC, and SEO has become its own separate strategy.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -53,8 +54,9 @@ export default function About() {
                                                     <AiTwotonePicture />
                                                 </div>
                                                 <div className='Seond_side_text_about'>
-                                                    <h5>Photography</h5>
-                                                    <p>is the art and practice of capturing images using light-sensitive materials or digital sensors to record visual.</p>
+                                                    <h5>Email marketing
+                                                    </h5>
+                                                    <p>Many companies use email marketing because it’s highly effective. Email marketing requires marketers to send emails to customers.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -64,8 +66,8 @@ export default function About() {
                                                     <AiTwotonePicture />
                                                 </div>
                                                 <div className='Seond_side_text_about'>
-                                                    <h5>Development</h5>
-                                                    <p>refers to the process of growth, progress, and improvement in various aspects of human endeavour.</p>
+                                                    <h5>Content marketing</h5>
+                                                    <p>Content marketing is an effective inbound marketing strategy that educates and engages customers by helping them find information.</p>
                                                 </div>
                                             </div>
                                         </div>

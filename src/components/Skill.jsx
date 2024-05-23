@@ -57,35 +57,38 @@ export default function Skill() {
                                 <div className='Story_learning_about'>SKILLS</div>
                             </div>
                             <h2>My Awesome  <span style={{ color: "#09c3b3", fontWeight: "800" }}> Skill</span></h2>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
+                            <p>Proficiency in SEO, PPC, content creation, social media management, email marketing, analytics, and basic graphic design is essential in digital marketing. These skills drive visibility, targeted traffic, engagement, and conversions. Marketers utilize analytics for data-driven decisions and optimize website performance for success online.
+                            </p>
                         </div>
                         <Row ref={sectionRef}>
                             <Col md={4} className='Slill_responsive_set'>
                                 <div className='First_message_box'>
                                     <div class="skill-left">
                                         <h3 class="font-alt">Make beauty Things With Passion.</h3>
-                                        <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface.</p>
+                                        <p>My passion for digital marketing stems from the dynamic nature of the industry and the endless possibilities it offers for creativity and innovation. I am fascinated by the ability to connect with diverse audiences through various digital platforms, using data-driven strategies to create meaningful and impactful campaigns. The ever-evolving landscape of digital marketing excites me, as it presents continuous opportunities to learn, adapt, and grow.
+                                        </p>
                                     </div>
                                 </div>
                             </Col>
-                            <Col md={4} className='Slill_responsive_set'> 
+                            <Col md={4} className='Slill_responsive_set'>
                                 <div className='progress_des'>
-                                    <p>WEB DESIGN</p>
+                                    <p>Inbound Marketing</p>
                                     <p>92%</p>
                                 </div>
                                 <ProgressBar now={progressValues.webDesign} />
                                 <div className='progress_des'>
-                                    <p>PSD TO HTML</p>
-                                    <p>84%</p>
+                                    <p>Searching engine marketing
+                                    </p>
+                                    <p>96%</p>
                                 </div>
                                 <ProgressBar now={progressValues.psdToHtml} />
                                 <div className='progress_des'>
-                                    <p>HTML5</p>
-                                    <p>88%</p>
+                                    <p>Social media marketing</p>
+                                    <p>98%</p>
                                 </div>
                                 <ProgressBar now={progressValues.html5} />
                                 <div className='progress_des'>
-                                    <p>CSS3</p>
+                                    <p>Experiential marketing</p>
                                     <p>95%</p>
                                 </div>
                                 <ProgressBar now={progressValues.css3} />
@@ -93,22 +96,23 @@ export default function Skill() {
                             </Col>
                             <Col md={4} className='Slill_responsive_set'>
                                 <div className='progress_des'>
-                                    <p>WEB DEVELOPMENT</p>
+                                    <p>Interactive marketing</p>
                                     <p>92%</p>
                                 </div>
                                 <ProgressBar now={progressValues.webDevelopment} />
                                 <div className='progress_des'>
-                                    <p>UI/UX DESIGN</p>
-                                    <p>84%</p>
+                                    <p>Brand marketing
+                                    </p>
+                                    <p>94%</p>
                                 </div>
                                 <ProgressBar now={progressValues.uiUxDesign} />
                                 <div className='progress_des'>
-                                    <p>WORDPRESS</p>
-                                    <p>88%</p>
+                                    <p>Partner marketing</p>
+                                    <p>93%</p>
                                 </div>
                                 <ProgressBar now={progressValues.webDevelopment} />
                                 <div className='progress_des'>
-                                    <p>MAGENTO</p>
+                                    <p>Personalized marketing</p>
                                     <p>95%</p>
                                 </div>
                                 <ProgressBar now={progressValues.magento} />

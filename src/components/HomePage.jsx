@@ -15,11 +15,12 @@ export default function HomePage({onScrollToContact}) {
             console.log("test")
           const typed = new Typed(".typing", {
             strings: [
-              "Developer",
-              "Web Designer",
-              "CMS Developer ",
-              "Graphic Designer ",
-              "Digital Marketing "
+              "Influencer Marketing",
+              "Email Marketing",
+              "Search Engine Marketing",
+              "Content Marketing",
+              "Pay Per Click",
+              "Marketing Strategy"
             ],
             typeSpeed: 100,
             backSpeed: 60,
@@ -44,7 +45,7 @@ export default function HomePage({onScrollToContact}) {
                                     <div className='left_side_banner_text'>
                                         <h4>HELLO, MY NAME IS</h4>
                                         <h1>Manish verma</h1>
-                                        <p className='typing_annimation'>A FREELANCE WEB <h6 className="typing"></h6></p>
+                                        <p className='typing_annimation'>A Expertise in <h6 className="typing"></h6></p>
                                         <Button className='all_btns' onClick={onScrollToContact}>Contact Me</Button>
                                     </div>
                                 </Col>

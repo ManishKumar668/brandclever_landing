@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
-import { Container, Nav } from 'react-bootstrap'
+import { Button, Container, Nav } from 'react-bootstrap'
 import { CgMail } from 'react-icons/cg'
 import { FaMapMarkerAlt } from 'react-icons/fa'
 import { FaMobileScreen } from 'react-icons/fa6'
@@ -20,6 +20,20 @@ export default function ContactForm({ contactSectionRef }) {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
     };
+
+    const sendEmail = async () => {
+        try {
+            const res = await axios.post('https://developer.brandclever.in/brand/admin/form/mail.php', {
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            console.log("resss", res)
+        } catch (error) {
+
+        }
+    }
 
 
     const handlSubmit = async (e) => {
@@ -57,6 +71,7 @@ export default function ContactForm({ contactSectionRef }) {
                     number: "",
                     message: ""
                 })
+
                 return;
             }
         } catch (error) {
@@ -67,6 +82,7 @@ export default function ContactForm({ contactSectionRef }) {
 
     return (
         <div>
+            {/* <Button onClick={sendEmail}>send</Button> */}
             <section className='about_story padding_top_down slider_section client_review' ref={contactSectionRef}>
                 <Container >
                     <div className='about_us_section_main_start'>
