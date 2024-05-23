@@ -1,6 +1,8 @@
 import React from 'react'
 import { Button, Col, Container, ProgressBar, Row } from 'react-bootstrap'
 import { AiTwotonePicture } from 'react-icons/ai'
+import { RiSeoLine } from 'react-icons/ri'
+import { SiAmazonsimpleemailservice, SiContentstack, SiMarketo } from 'react-icons/si'
 
 export default function About() {
     return (
@@ -28,7 +30,7 @@ export default function About() {
                                         <div className='graphics_start'>
                                             <div className='image_and_text_about'>
                                                 <div className='img_about_small'>
-                                                    <AiTwotonePicture />
+                                                    <SiMarketo />
                                                 </div>
                                                 <div className='Seond_side_text_about'>
                                                     <h5>Influencer marketing</h5>
@@ -40,7 +42,7 @@ export default function About() {
                                         <div className='graphics_start'>
                                             <div className='image_and_text_about'>
                                                 <div className='img_about_small'>
-                                                    <AiTwotonePicture />
+                                                    <RiSeoLine  />
                                                 </div>
                                                 <div className='Seond_side_text_about'>
                                                     <h5>Search engine marketing</h5>
@@ -51,7 +53,7 @@ export default function About() {
                                         <div className='graphics_start'>
                                             <div className='image_and_text_about'>
                                                 <div className='img_about_small'>
-                                                    <AiTwotonePicture />
+                                                    <SiAmazonsimpleemailservice  />
                                                 </div>
                                                 <div className='Seond_side_text_about'>
                                                     <h5>Email marketing
@@ -63,7 +65,7 @@ export default function About() {
                                         <div className='graphics_start'>
                                             <div className='image_and_text_about'>
                                                 <div className='img_about_small'>
-                                                    <AiTwotonePicture />
+                                                    <SiContentstack  />
                                                 </div>
                                                 <div className='Seond_side_text_about'>
                                                     <h5>Content marketing</h5>

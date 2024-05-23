@@ -124,7 +124,7 @@ button.all_btns:hover {
 }
 
 .Image_left_side_banner_down img {
-  height: 645px;
+  display: none;
   width: 100%;
 }
 
@@ -161,6 +161,7 @@ button.all_btns:hover {
 }
 
 .Banner_down_section .down_four_div_about .image_and_text_about h5 {
+  text-transform: capitalize;
   color: #292929;
   font-size: 15px;
   font-weight: 600;
@@ -180,6 +181,10 @@ button.all_btns:hover {
 
 .Banner_down_section .About_down_button {
   margin-top: 35px;
+}
+
+.project_img img {
+  height: 200px;
 }
 
 .top-counter {
@@ -217,7 +222,7 @@ section.counter_start_here .counter_number {
 }
 
 section.about_story.padding_top_down .top_text_about {
-  max-width: 470px;
+  max-width: 650px;
   width: 100%;
   margin-bottom: 50px;
 }
@@ -261,7 +266,7 @@ section.about_story.padding_top_down .top_text_about p {
 }
 
 section.about_story.padding_top_down .left_side_image_story {
-  height: 98%;
+  height: 100%;
   border: 7px solid #ffffff80;
   box-shadow: 0px 0px 15px rgb(48 48 48 / 9%);
   border-radius: 2px;
@@ -293,6 +298,7 @@ section.about_story.padding_top_down .resume-box .resume_icn_story {
 }
 
 section.about_story.padding_top_down .resume-box label {
+  text-transform: capitalize;
   position: relative;
   font-size: 12px;
   letter-spacing: 4px;
@@ -339,7 +345,7 @@ section.about_story.padding_top_down .icon_set_about_me_sec {
 }
 
 .skill-left {
-  padding: 25px;
+  padding: 16px 15px;
   margin: 0 30px 0 0px;
   border: 1px solid #ddd;
 }
@@ -348,7 +354,7 @@ section.about_story.padding_top_down .icon_set_about_me_sec {
   font-size: 22px;
   color: #1c1c1c;
   font-weight: 500;
-  margin: 0 0 45px;
+  margin: 0 0 15px;
   letter-spacing: 1px;
 }
 
@@ -364,12 +370,12 @@ section.about_story.padding_top_down .icon_set_about_me_sec {
 }
 
 .progress_des p {
+  text-transform: capitalize;
   margin-bottom: 5px !important;
   color: #222;
   padding: 0 0 6px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
-
 }
 
 .progress {
@@ -406,7 +412,7 @@ section.about_story.padding_top_down.slider_section {
 .image_up_icn_set {
   position: absolute;
   bottom: 92px;
-  background: rgb(149 149 149 / 42%);
+  background: rgb(22 10 10 / 42%);
   left: 0;
   right: 0;
   padding: 3px;
@@ -426,6 +432,7 @@ section.about_story.padding_top_down.slider_section {
 }
 
 .portfolio-info h5 {
+  text-transform: capitalize;
   font-size: 18px;
   letter-spacing: 0.5px;
   color: #292929;
@@ -549,7 +556,7 @@ p.name {
 }
 
 p.country {
-  font-size: 12px;
+  font-size: 14px;
   margin: 0;
 }
 
@@ -616,7 +623,7 @@ section.about_story.padding_top_down.slider_section.blog_sec .blog-item {
   display: inline-block;
   color: #fff !important;
   border-radius: 3px;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
@@ -765,11 +772,14 @@ section.about_story.padding_top_down.slider_section.blog_sec .blog-item {
   padding: 15px 0;
 }
 
+
 .social-icons li {
   display: inline-block;
   vertical-align: top;
   list-style: none;
 }
+
+
 
 .footer .social-icons li svg {
   text-align: center;
@@ -779,9 +789,27 @@ section.about_story.padding_top_down.slider_section.blog_sec .blog-item {
   padding: 0px 17px;
 }
 
+button.up_arrow_btn.btn.btn-primary {
+  position: fixed;
+  border: 0;
+  z-index: 1;
+  bottom: 10px;
+  right: 20px;
+  background: #26a69a;
+}
+
+.footer .social-icons li svg:hover {
+  text-align: center;
+  line-height: 40px;
+  color: #09c3b3;
+  font-size: 51px;
+  padding: 0px 17px;
+}
+
+
 .footer p {
   margin: 10px 0 0;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.5px;
   color: rgba(255, 255, 255, 0.68);
   font-weight: 300;
@@ -826,9 +854,10 @@ ul.price-list {
 }
 
 .title.text-center h3 {
+  text-transform: capitalize;
   color: #2e2e37;
-  font-weight: 700;
   font-size: 43px;
+  font-weight: 700;
 }
 
 .mt-80 {
@@ -899,7 +928,7 @@ span.theme-color.f-700.d-block.mb-6 {
 
 a.btn.position-relative.over-hidden.text-white.theme-bg.text-white.text-capitalize.mt-25 {
   padding: 12px 45px;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2.0px;
   font-weight: 600;
@@ -922,7 +951,7 @@ a.btn.position-relative.over-hidden.text-white.theme-bg.text-white.text-capitali
 }
 
 img.not_show_desktop {
-  display: none;
+  display: block;
 }
 
 .banner_right_side_img img {
@@ -933,7 +962,15 @@ img.not_show_desktop {
   text-align: center;
 }
 
+.send button {
+  font-size: 14px;
+}
+
 button.m-btn.m-btn-theme:hover {
   background-color: #151515;
   color: #fff;
+}
+
+.left_side_banner_text button.all_btns.btn.btn-primary {
+  font-size: 15px;
 }

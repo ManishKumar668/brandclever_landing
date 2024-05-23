@@ -3,37 +3,37 @@
         {
             "id": 1,
             "title": "SEO",
-            "link": "https://brandclever.in/",
-            "image": "images/magento/smart_sign.png"
+            "link": "https://brandclever.in",
+            "image": "project/brand.png"
         },
         {
             "id": 2,
-            "title": "PHP",
-            "link": "https://super-solar-systems.com/",
-            "image": "images/php/super_solar.png"
+            "title": "Affiliate Marketing",
+            "link": "https://www.youtube.com/channel/UCErOcnZY8Vu8lMZcv7v98ZA",
+            "image": "project/podcast.png"
         },
         {
             "id": 3,
-            "title": "Wordpress",
-            "link": "https://myntfinancial.com.au/",
-            "image": "images/wordpress/mynt.png"
+            "title": "PPC",
+            "link": "https://3realmsinnovations.com",
+            "image": "project/ppc3realme.png"
         },
         {
             "id": 4,
-            "title": "Shopify",
-            "link": "https://fohen.co.uk/",
-            "image": "images/shopify/fohen.png"
+            "title": "Personalized marketing",
+            "link": "https://www.etsy.com/shop",
+            "image": "project/shop_india.png"
         },
         {
             "id": 5,
-            "title": "BigCommerce",
-            "link": "https://heyfancystyle.com/",
-            "image": "images/shopify/hyfa.png"
+            "title": "Affiliate Marketing",
+            "link": "https://www.youtube.com/channel/UCWz_pQSsx2JGFj8jise7vVA",
+            "image": "project/sunny.png"
         }, {
             "id": 3,
-            "title": "Wordpress",
-            "link": "https://karlatomanelli.com/",
-            "image": "images/wordpress/karla.png"
+            "title": "B2C marketing",
+            "link": "https://www.upwork.com/freelancers/~01cced525d124e4b27",
+            "image": "project/shobha.png"
         }
     ]
 }

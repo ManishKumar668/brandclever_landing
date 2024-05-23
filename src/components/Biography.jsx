@@ -31,13 +31,13 @@ export default function Biography() {
                                     <div class="resume-row">
                                         <div class="resume-box">
                                             <div className='icon_set_about_me_sec'>
-                                                
+
                                                 <SiMarketo className='resume_icn_story' />
                                             </div>
                                             <label class="theme-bg theme-color">B2B Marketing</label>
                                             {/* <span>B2B marketing</span> */}
                                             {/* <h2>Holy Names University</h2> */}
-                                            <p>B2B marketing stands for "business to business." This means that the company's target audience is another company. B2B marketing typically requires a much longer buying cycle.</p>
+                                            <p>B2B marketing stands for "business to business." This means that the company's target audience is another company. B2B marketing typically requires a much longer buying cycleand is extremely strategic.</p>
                                         </div>
 
                                         <div class="resume-box top_down_center_sec">
@@ -47,7 +47,7 @@ export default function Biography() {
                                             <label class="theme-bg theme-color">B2C Marketing</label>
                                             {/* <span>England</span>
                                             <h2>Oxford University</h2> */}
-                                            <p>B2C marketing stands for "business to consumer." This means that the target audience is a direct consumer of the product or service.Depending on the type of product.</p>
+                                            <p>B2C marketing stands for "business to consumer." This means that the target audience is a direct consumer of the product or service.Depending on the type of product or Service.B2C product can be very short and the decision making process. </p>
                                         </div>
 
                                     </div>
@@ -58,12 +58,12 @@ export default function Biography() {
                                     <div class="resume-row">
                                         <div class="resume-box">
                                             <div className='icon_set_about_me_sec'>
-                                                <TbCirclesRelation  className='resume_icn_story' />
+                                                <TbCirclesRelation className='resume_icn_story' />
                                             </div>
                                             <label class="theme-bg theme-color">Public relations (PR) marketing</label>
                                             {/* <span>Califonia USA</span>
                                             <h2>Google</h2> */}
-                                            <p>PR marketing is a strategy where you partner with a news source to generate more buzz around your business. PR marketing is commonly used when a company. </p>
+                                            <p>PR marketing is a strategy where you partner with a news source to generate more buzz around your business. PR marketing is commonly used when a company,launches a new product .</p>
                                         </div>
 
                                         <div class="resume-box top_down_center_sec">
@@ -74,7 +74,7 @@ export default function Biography() {
                                             </label>
                                             {/* <span>England</span>
                                             <h2>Apple</h2> */}
-                                            <p>Brand marketing is a long-term form of marketing in which the goal is to become recognizable and establish a good reputation. Brand marketing encompasses many different facets.</p>
+                                            <p>Brand marketing is a long-term form of marketing in which the goal is to become recognizable and establish a good reputation. Brand marketing encompasses many different facets, from visual branding to tone.To measure the effectiveness of brand. </p>
                                         </div>
                                     </div>
                                 </div>

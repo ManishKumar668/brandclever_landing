@@ -105,11 +105,11 @@ export default function ContactForm({ contactSectionRef }) {
                                         <label>For Information</label>
                                         <Nav.Link href='mailto:manishdoraha1@gmail.com'><span>manishdoraha1@gmail.com</span></Nav.Link>
                                     </div>
-                                    <div className="ci-row">
+                                    {/* <div className="ci-row">
                                         <CgMail />
                                         <label>For Support</label>
                                         <Nav.Link href='mailto:shobha.brandclever@gmail.com'><span>shobha.brandclever@gmail.com</span></Nav.Link>
-                                    </div>
+                                    </div> */}
                                     <div className="ci-row">
                                         <FaMobileScreen />
                                         <label>Talk with us</label>

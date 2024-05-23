@@ -65,7 +65,7 @@ export default function Skill() {
                                 <div className='First_message_box'>
                                     <div class="skill-left">
                                         <h3 class="font-alt">Make beauty Things With Passion.</h3>
-                                        <p>My passion for digital marketing stems from the dynamic nature of the industry and the endless possibilities it offers for creativity and innovation. I am fascinated by the ability to connect with diverse audiences through various digital platforms, using data-driven strategies to create meaningful and impactful campaigns. The ever-evolving landscape of digital marketing excites me, as it presents continuous opportunities to learn, adapt, and grow.
+                                        <p>My passion for digital marketing stems from the dynamic nature of the industry and the endless possibilities it offers for creativity and innovation. I am fascinated by the ability to connect with diverse audiences through various digital platforms, using data-driven strategies to create meaningful and impactful campaigns.
                                         </p>
                                     </div>
                                 </div>
