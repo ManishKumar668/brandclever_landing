@@ -1031,3 +1031,7 @@ ul.navbar-nav.ml-auto {
 a.nav-link.active.nav-link {
   color: #09c3b3;
 }
+
+ul.ant-rate.client_rating.css-17seli4 {
+  float: right;
+}
