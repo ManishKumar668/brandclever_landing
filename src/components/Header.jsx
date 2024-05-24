@@ -29,6 +29,7 @@ export default function Header({ onScrollToSection, activeMenuItem, sectionRefs 
 
     const handleMenuClick = (section, menuItem) => {
         onScrollToSection(sectionRefs[section], menuItem);
+        setMenuOpen(false);
     };
 
 
