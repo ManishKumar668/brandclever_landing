@@ -35,7 +35,7 @@ code {
 
 .Start_top_section {
   background-color: #c8ced7 !important;
-  padding: 20px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
 }
 
 textarea.form-control {
@@ -772,14 +772,11 @@ section.about_story.padding_top_down.slider_section.blog_sec .blog-item {
   padding: 15px 0;
 }
 
-
 .social-icons li {
   display: inline-block;
   vertical-align: top;
   list-style: none;
 }
-
-
 
 .footer .social-icons li svg {
   text-align: center;
@@ -973,4 +970,64 @@ button.m-btn.m-btn-theme:hover {
 
 .left_side_banner_text button.all_btns.btn.btn-primary {
   font-size: 15px;
+}
+
+p.review_desc {
+  height: 85px;
+}
+
+ul.ant-rate.client_rating.css-dev-only-do-not-override-17seli4 {
+  float: right;
+}
+
+nav.navbar.header-nav-01.header-nav-white.fixed-top.navbar-expand-lg {
+  padding: 15px 10px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+a.navbar-brand {
+  color: black;
+  /* font-size: 23px; */
+  font-weight: 800;
+  position: relative;
+  font-size: 23px;
+}
+
+.navbar {
+  transition: background-color 0.3s;
+}
+
+.navbar.transparent {
+  background-color: transparent;
+}
+
+.navbar.scrolled {
+  background-color: white;
+}
+
+.navbar-collapse.collapse {
+  display: none !important;
+}
+
+.navbar-collapse.show {
+  display: block !important;
+}
+
+a.nav-link.active {
+  color: #333;
+  font-weight: 500;
+}
+
+ul.navbar-nav.ml-auto {
+  color: #2e2e37 !important;
+  letter-spacing: 1px;
+  position: relative;
+  text-transform: capitalize;
+}
+
+a.nav-link.active.nav-link {
+  color: #09c3b3;
 }

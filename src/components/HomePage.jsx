@@ -45,7 +45,7 @@ export default function HomePage({onScrollToContact}) {
                                     <div className='left_side_banner_text'>
                                         <h4>HELLO, MY NAME IS</h4>
                                         <h1>Manish verma</h1>
-                                        <p className='typing_annimation'>A Expertise in <h6 className="typing"></h6></p>
+                                        <p className='typing_annimation'>An Expertise in <h6 className="typing"></h6></p>
                                         <Button className='all_btns' onClick={onScrollToContact}>Contact Me</Button>
                                     </div>
                                 </Col>

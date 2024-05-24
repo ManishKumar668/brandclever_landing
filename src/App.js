@@ -18,19 +18,28 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import { Button } from 'react-bootstrap';
 import { FaArrowCircleUp } from 'react-icons/fa';
+import Header from './components/Header';
 
 function App() {
 
+  const homeSectionRef = useRef(null);
+  const aboutSectionRef = useRef(null);
+  const resumeSectionRef = useRef(null);
+  const portfolioSectionRef = useRef(null);
+  const blogSectionRef = useRef(null);
   const contactSectionRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false);
 
-  const handleScrollToContact = () => {
-    const target = contactSectionRef.current;
+  const [isVisible, setIsVisible] = useState(false);
+  const [activeMenuItem, setActiveMenuItem] = useState('home');
+
+  const handleScrollToSection = (sectionRef, menuItem) => {
+    const target = sectionRef.current;
     if (target) {
       window.scrollTo({
-        top: target.offsetTop,
+        top: target.offsetTop - 70, // Adjust for fixed header height
         behavior: 'smooth'
       });
+      setActiveMenuItem(menuItem);
     }
   };
 
@@ -51,30 +60,77 @@ function App() {
     }
   };
 
+  const handleScroll = () => {
+    const sections = [
+      { ref: homeSectionRef, name: 'home' },
+      { ref: aboutSectionRef, name: 'about' },
+      { ref: resumeSectionRef, name: 'resume' },
+      { ref: portfolioSectionRef, name: 'portfolio' },
+      { ref: blogSectionRef, name: 'blog' },
+      { ref: contactSectionRef, name: 'contact' }
+    ];
+
+    const offsetTop = window.pageYOffset + 80;
+
+    for (let section of sections) {
+      if (section.ref.current.offsetTop <= offsetTop &&
+        section.ref.current.offsetTop + section.ref.current.offsetHeight > offsetTop) {
+        setActiveMenuItem(section.name);
+        break;
+      }
+    }
+  };
+
   useEffect(() => {
     window.addEventListener('scroll', scrollToTop);
+    window.addEventListener('scroll', handleScroll);
 
-    // Clean up the event listener when component unmounts
     return () => {
       window.removeEventListener('scroll', scrollToTop);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
+
+
   return (
     <div>
+      <Header
+        onScrollToSection={handleScrollToSection}
+        activeMenuItem={activeMenuItem}
+        sectionRefs={{
+          home: homeSectionRef,
+          about: aboutSectionRef,
+          resume: resumeSectionRef,
+          portfolio: portfolioSectionRef,
+          blog: blogSectionRef,
+          contact: contactSectionRef
+        }}
+      />
       <ToastContainer position="top-right" />
-      <HomePage onScrollToContact={handleScrollToContact} />
-      <About />
+      <div ref={homeSectionRef}>
+        <HomePage onScrollToContact={() => handleScrollToSection(contactSectionRef, 'contact')} />
+      </div>
+      <div ref={aboutSectionRef}>
+        <About />
+      </div>
       <Counter />
-      <Biography />
+      <div ref={resumeSectionRef}>
+        <Biography />
+      </div>
       <Skill />
-      <WorkFlow />
+      <div ref={portfolioSectionRef}>
+        <WorkFlow />
+      </div>
       <ClientReview />
-      <Blog />
+      <div ref={blogSectionRef}>
+        <Blog />
+      </div>
       <PriceList />
-      <ContactForm contactSectionRef={contactSectionRef} />
+      <div ref={contactSectionRef}>
+        <ContactForm />
+      </div>
       <Footer />
-
       <Button className='up_arrow_btn' style={{ display: isVisible ? 'block' : 'none' }} onClick={handleScollTop}>
         <FaArrowCircleUp />
       </Button>

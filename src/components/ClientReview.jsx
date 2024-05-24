@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import reviews from "../data/ClientReview.json"
+import { Rate } from 'antd';
 
 export default function ClientReview() {
 
@@ -12,7 +13,7 @@ export default function ClientReview() {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        arrows:false,
+        arrows: false,
         slidesToScroll: 3,
         responsive: [
             {
@@ -72,9 +73,9 @@ export default function ClientReview() {
                                                             <p className="country"> {ele.country}</p>
                                                         </div>
                                                     </div>
-                                                    <p>{ele.review.substring(0, 200)}...</p>
+                                                    <p className='review_desc'>{ele.review.substring(0, 150)}...</p>
                                                 </div>
-
+                                                <Rate value={ele.rating} className='client_rating'/>
                                             </div>
                                         </div>
                                     )

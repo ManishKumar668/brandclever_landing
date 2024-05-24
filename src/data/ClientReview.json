@@ -7,7 +7,7 @@
           "technology": "WordPress Plugin",
           "review": "Working with Manish was a real pleasure. They are professional, communicative, and always available. I will definitely like to work with them in the future!",
           "rating":5,
-          "image":"/images/client/1.avif"
+          "image":"/images/client/1.png"
         },
         {
           "id": 2,
@@ -16,7 +16,7 @@
           "technology": "CS-Cart",
           "review": "A talented, dedicated and very nice professional. Great communication. Thank you very much for all your help.",
           "rating":5,
-          "image":"/images/client/2.avif"
+          "image":"/images/client/jp.png"
         },
         {
           "id": 3,
@@ -25,7 +25,7 @@
           "technology": "Wordpress",
           "review": "I would highly recommend Manish. It was a pleasure working with Manish. He wrote clean, well-commented code, followed instructions without a problem, and voluntarily sent me a status update. I'd give him 6 stars if I could.",
           "rating":5,
-          "image":"/images/client/3.avif"
+          "image":"/images/client/2.png"
         },
         {
           "id": 4,
@@ -34,7 +34,7 @@
           "technology": "Wordpress",
           "review": "Manish is very well structured and organized. They give very clear instructions on any technical questions. They clearly know their way around web builds. Their communication is very consistent and always find the time to carry out the work fast. I look forward to working with them again.",
           "rating":5,
-          "image":"/images/client/4.jpeg"
+          "image":"/images/client/3.png"
         },
         {
           "id": 5,
@@ -43,7 +43,7 @@
           "technology": "Zoho CRM",
           "review": "Excellent help with setting up Zoho CRM. Was very easy to work with help and took charge of our project. Will work with again. Thank you.Our project was related to CRM implementation. Shobha was very helpful and completed the tasks we needed",
           "rating":5,
-          "image":"/images/client/5.avif"
+          "image":"/images/client/4.png"
         },
         {
           "id": 6,
@@ -52,7 +52,7 @@
           "technology": "WordPress",
           "review": "The project started, was done, and completed in an exceptional, 10-star way. Mansi, Manish and his team were great on all levels: communication, documentation, UX designs, planning, implementation, and always on time. I highly recommend Mansi, Manish and his team.",
           "rating":5,
-          "image":"/images/client/6.avif"
+          "image":"/images/client/5.png"
         },
         {
           "id": 7,
@@ -61,7 +61,7 @@
           "technology":"CRM database front end + backend programmer ",
           "review":"Very very satisfied with Manish. He did an outstanding job! I had a complicatedmultilayered project for him and he did everything exactly as asked. Satisfied myexpectations.Will try to work with Manish again in the future when I can.",
           "rating":5,
-          "image":"/images/client/1.avif"
+          "image":"/images/client/6.png"
         },
         {
           "id": 8,
@@ -70,7 +70,7 @@
           "technology": "Experienced Developer Needed for Klarna Checkout (KCO) Module Integration withPrestaShop ",
           "review": "I had the pleasure of working with Manish on the development of our Prestashop module for Klarna payments. From start to finish, Manish impressed with his professionalism, technical expertise, and swift communication. The module he delivered exceeded our expectations and integrated seamlessly into our online store. I particularly appreciated his proactive approach to addressing potential issues and his willingness to go the extra mile to ensure everything worked perfectly. I wholeheartedly recommend Manish to anyone in need of a reliable and talented developer. Thank you for the outstanding work!",
           "rating":5,
-          "image":"/images/client/2.avif"
+          "image":"/images/client/cli1.png"
         },
         {
           "id": 9,
@@ -79,7 +79,7 @@
           "technology": "Wix",
           "review":"Beast mode. He met his deadlines, showed all his work, communicated everything, and ensured proper delivery for everything! Highly recommended and you'll definitely get your needs met!",
           "rating":5,
-          "image":"/images/client/3.avif"
+          "image":"/images/client/cli2.png"
         },
         {
           "id": 10,
@@ -88,7 +88,7 @@
           "technology": "Twilio and Segment integration into qualtrics",
           "review": "Manish is a very helpful, competent person who pursues a good result to the end.",
           "rating":5,
-          "image":"/images/client/4.jpeg"
+          "image":"/images/client/cli3.png"
         },
         {
           "id": 11,
