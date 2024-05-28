@@ -6,7 +6,7 @@ import { TbBrandWalmart, TbCirclesRelation } from 'react-icons/tb'
 
 export default function Biography() {
     return (
-        <div>
+        <div className='skill_section'>
 
             <section className='about_story padding_top_down'>
                 <Container>
@@ -16,7 +16,7 @@ export default function Biography() {
                                 <div className='hori'></div>
                                 <div className='Story_learning_about'>STORY</div>
                             </div>
-                            <h2>My Awesome  <span style={{ color: "#09c3b3", fontWeight: "800" }}> Story</span></h2>
+                            <h2>My Awesome  <span className='sub_title'> Story</span></h2>
                             <p>With over 15 years in marketing, I specialize in B2B and B2C client management. My expertise spans strategic planning, lead generation, and campaign execution. In B2B, I forge partnerships and drive lead generation initiatives. In B2C, I craft compelling messages and engage with consumers across channels. I prioritize client satisfaction through transparent communication and tailored strategies.</p>
                         </div>
                         <Row>

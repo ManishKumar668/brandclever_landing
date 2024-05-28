@@ -19,6 +19,7 @@ import { ToastContainer } from 'react-toastify';
 import { Button } from 'react-bootstrap';
 import { FaArrowCircleUp } from 'react-icons/fa';
 import Header from './components/Header';
+import UpdatedHomePage from './components/UpdatedHomePage';
 
 function App() {
 
@@ -95,6 +96,23 @@ function App() {
 
   return (
     <div>
+      <div class="animateme">
+        <ul class="bg-bubbles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
       <Header
         onScrollToSection={handleScrollToSection}
         activeMenuItem={activeMenuItem}
@@ -109,7 +127,8 @@ function App() {
       />
       <ToastContainer position="top-right" />
       <div ref={homeSectionRef}>
-        <HomePage onScrollToContact={() => handleScrollToSection(contactSectionRef, 'contact')} />
+        <UpdatedHomePage onScrollToContact={() => handleScrollToSection(contactSectionRef, 'contact')} />
+        {/* <HomePage onScrollToContact={() => handleScrollToSection(contactSectionRef, 'contact')} /> */}
       </div>
       <div ref={aboutSectionRef}>
         <About />

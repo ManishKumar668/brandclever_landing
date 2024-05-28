@@ -21,7 +21,7 @@ export default function About() {
                                 <div className='banner_down_about_me_start'>
                                     <div className='Uper_text_about'>
                                         <h6>Hello $ Welcome</h6>
-                                        <h2>Everything <span style={{ color: "#09c3b3", fontWeight: "800" }}>About Me</span></h2>
+                                        <h2>Everything <span style={{ color: "#5b5be3", fontWeight: "800" }}>About Me</span></h2>
                                         <p>I am a Certified "TOP RATED" Expert Upwork freelancer, I have dedicated over 3320+ working hours throughout my tenure, earning a commendable USD 200k+ and maintaining a perfect 100% job success rate. <br></br><br></br>
                                             My expertise and dedication have helped numerous businesses across various industries achieve their e-commerce goals on the Shopify platform. Whether you're just starting out or looking to take your online store to the next level.
                                         </p>

@@ -79,7 +79,7 @@ export default function WorkFlow() {
                                 <div className='hori'></div>
                                 <div className='Story_learning_about'>Work</div>
                             </div>
-                            <h2>My Awesome  <span style={{ color: "#09c3b3", fontWeight: "800" }}> Work</span></h2>
+                            <h2>My Awesome  <span className='sub_title'> Work</span></h2>
                             <p>At My Awesome Work, our digital marketing process is designed to elevate your brand and drive engagement. Here's a snapshot of our approach:
                             </p>
                         </div>

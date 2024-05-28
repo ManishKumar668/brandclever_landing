@@ -47,7 +47,7 @@ export default function Skill() {
     }, []);
 
     return (
-        <div>
+        <div className=''>
             <section className='progress_bar_section about_story padding_top_down'>
                 <Container>
                     <div className='about_us_section_main_start'>
@@ -56,7 +56,7 @@ export default function Skill() {
                                 <div className='hori'></div>
                                 <div className='Story_learning_about'>SKILLS</div>
                             </div>
-                            <h2>My Awesome  <span style={{ color: "#09c3b3", fontWeight: "800" }}> Skill</span></h2>
+                            <h2>My Awesome  <span className='sub_title'> Skill</span></h2>
                             <p>Proficiency in SEO, PPC, content creation, social media management, email marketing, analytics, and basic graphic design is essential in digital marketing. These skills drive visibility, targeted traffic, engagement, and conversions. Marketers utilize analytics for data-driven decisions and optimize website performance for success online.
                             </p>
                         </div>

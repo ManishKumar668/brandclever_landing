@@ -13,7 +13,7 @@ export default function Blog() {
                                 <div className='hori'></div>
                                 <div className='Story_learning_about'>NEWS</div>
                             </div>
-                            <h2>Latest <span style={{ color: "#09c3b3", fontWeight: "800" }}> Blogs</span></h2>
+                            <h2>Latest <span className='sub_title'> Blogs</span></h2>
                             <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
                             </p>
                         </div>

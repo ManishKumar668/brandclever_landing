@@ -52,7 +52,7 @@ export default function ClientReview() {
                                 <div className='hori'></div>
                                 <div className='Story_learning_about'>TESTIMONIAL</div>
                             </div>
-                            <h2>What People  <span style={{ color: "#09c3b3", fontWeight: "800" }}> Say?</span></h2>
+                            <h2>What People  <span className='sub_title'> Say?</span></h2>
                             <p>I offer customized design and development services for businesses of all sizes. My expertise lies in crafting elegant, modern websites, web applications, and online stores that meet your unique needs and elevate your digital presence.
                             </p>
                         </div>

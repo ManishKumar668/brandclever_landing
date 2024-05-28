@@ -21,9 +21,20 @@ export default function ContactForm({ contactSectionRef }) {
         setFormData({ ...formData, [name]: value });
     };
 
+
+
     const sendEmail = async () => {
         try {
-            const res = await axios.post('https://developer.brandclever.in/brand/admin/form/mail.php', {
+
+            let emailData = JSON.stringify({
+                "to": "brandclever.deepak2@gmail.com",
+                "name": "deepak1",
+                "subject": "test1",
+                "message": "test1"
+            });
+
+
+            const res = await axios.post('https://developer.brandclever.in/brand/admin/form/mail.php', emailData, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
@@ -55,7 +66,6 @@ export default function ContactForm({ contactSectionRef }) {
             return;
         }
 
-        console.log("formData", formData)
 
         try {
             const res = await axios.post('https://developer.brandclever.in/brand/admin/form/landing_page_data.php', formData, {
@@ -64,6 +74,7 @@ export default function ContactForm({ contactSectionRef }) {
                 }
             });
             if (res.data.status) {
+                sendEmail()
                 toast.success("Data submited successfully!")
                 setFormData({
                     name: "",
@@ -81,7 +92,7 @@ export default function ContactForm({ contactSectionRef }) {
     }
 
     return (
-        <div>
+        <div className='cont_act_use'>
             {/* <Button onClick={sendEmail}>send</Button> */}
             <section className='about_story padding_top_down slider_section client_review' ref={contactSectionRef}>
                 <Container >
@@ -91,7 +102,7 @@ export default function ContactForm({ contactSectionRef }) {
                                 <div className='hori'></div>
                                 <div className='Story_learning_about'>GET IN TOUCH</div>
                             </div>
-                            <h2>Contact   <span style={{ color: "#09c3b3", fontWeight: "800" }}> Details</span></h2>
+                            <h2>Contact   <span className='sub_title'> Details</span></h2>
                             <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
                             </p>
                         </div>
@@ -175,7 +186,7 @@ export default function ContactForm({ contactSectionRef }) {
                                                     <textarea
                                                         name="message"
                                                         placeholder="Message *"
-                                                        rows={3}
+                                                        rows={2}
                                                         className="form-control"
                                                         defaultValue={""}
                                                         onChange={handleChange}
