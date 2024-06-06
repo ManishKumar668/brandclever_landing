@@ -174,7 +174,7 @@ export default function ContactForm({ contactSectionRef }) {
                                                         name="number"
                                                         placeholder="Number"
                                                         className="form-control"
-                                                        type="number"
+                                                        type="text"
                                                         onChange={handleChange}
                                                         value={formData.number}
                                                     />

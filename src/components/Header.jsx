@@ -54,7 +54,7 @@ export default function Header({ onScrollToSection, activeMenuItem, sectionRefs 
                         <div className={`navbar-collapse justify-content-end ${menuOpen ? 'show' : 'collapse'}`} id="navbarKeira">
                             <ul className="navbar-nav ml-auto">
                                 <li><Nav.Link className={`nav-link ${activeMenuItem === 'home' ? 'active' : ''}`} href="" onClick={() => handleMenuClick('home', 'home')}>Home</Nav.Link></li>
-                                <li><Nav.Link className={`nav-link ${activeMenuItem === 'about' ? 'active' : ''}`} href="" onClick={() => handleMenuClick('about', 'about')}>About Us</Nav.Link></li>
+                                <li><Nav.Link className={`nav-link ${activeMenuItem === 'about' ? 'active' : ''}`} href="" onClick={() => handleMenuClick('about', 'about')}>About Me</Nav.Link></li>
                                 <li><Nav.Link className={`nav-link ${activeMenuItem === 'resume' ? 'active' : ''}`} href="" onClick={() => handleMenuClick('resume', 'resume')}>Resume</Nav.Link></li>
                                 <li><Nav.Link className={`nav-link ${activeMenuItem === 'portfolio' ? 'active' : ''}`} href="" onClick={() => handleMenuClick('portfolio', 'portfolio')}>Portfolio</Nav.Link></li>
                                 <li><Nav.Link className={`nav-link ${activeMenuItem === 'blog' ? 'active' : ''}`} href="" onClick={() => handleMenuClick('blog', 'blog')}>Blog</Nav.Link></li>

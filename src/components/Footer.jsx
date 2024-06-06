@@ -7,14 +7,14 @@ export default function Footer() {
     return (
         <div>
             <footer className="footer">
-                <div className="container">
+                {/* <div className="container">
                     <div className="footer-logo">
                         <span>
                             Manish Verma <span />
                         </span>
                     </div>
-                </div>
-                <ul className="social-icons">
+                </div> */}
+                {/* <ul className="social-icons">
                     <li>
                         <Nav.Link href="https://www.upwork.com/freelancers/~01d672b038a81f6f0f" target='_blank'>
                             <FaUpwork />
@@ -42,9 +42,9 @@ export default function Footer() {
                         </Nav.Link>
                     </li>
 
-                </ul>
+                </ul> */}
                 <p className="copyright">
-                    © 2024 <a href="#">Manish Verma</a>. All Rights Reserved
+                    © 2024 All Rights Reserved
                 </p>
 
             </footer>

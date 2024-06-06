@@ -6,8 +6,7 @@ import { TbBrandWalmart, TbCirclesRelation } from 'react-icons/tb'
 
 export default function Biography() {
     return (
-        <div className='skill_section'>
-
+        <div className='skill_section biography'>
             <section className='about_story padding_top_down'>
                 <Container>
                     <div className='about_us_section_main_start'>
@@ -60,10 +59,10 @@ export default function Biography() {
                                             <div className='icon_set_about_me_sec'>
                                                 <TbCirclesRelation className='resume_icn_story' />
                                             </div>
-                                            <label class="theme-bg theme-color">Public relations (PR) marketing</label>
+                                            <label class="theme-bg theme-color">Public relations (PR)</label>
                                             {/* <span>Califonia USA</span>
                                             <h2>Google</h2> */}
-                                            <p>PR marketing is a strategy where you partner with a news source to generate more buzz around your business. PR marketing is commonly used when a company,launches a new product .</p>
+                                            <p>PR marketing is a strategic approach where businesses collaborate with news sources and media outlets to create more buzz and visibility for their brand. This method is particularly effective when a company.</p>
                                         </div>
 
                                         <div class="resume-box top_down_center_sec">

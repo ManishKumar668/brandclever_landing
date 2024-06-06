@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Nav, Row } from 'react-bootstrap'
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 import { FaUpwork } from 'react-icons/fa6'
 
@@ -16,20 +16,22 @@ export default function UpdatedHomePage({ onScrollToContact }) {
                         </div>
                         <div className='resume_btn'>
                             <div className='cont_act_btn'>
-                                <Button className='cont_btn' onClick={onScrollToContact}>Contact Us</Button>
+                                <Button className='cont_btn' onClick={onScrollToContact}>Contact Me</Button>
                             </div>
                             <div className='social'>
-                                <span><FaUpwork /></span>
-                                <span><FaFacebookF /></span>
-                                <span><FaLinkedinIn /></span>
-                                <span><FaInstagram /></span>
-                                <span><FaWhatsapp /></span>
+                                <Nav.Link href="https://www.upwork.com/freelancers/~01d672b038a81f6f0f" target='_blank'>
+                                    <span><FaUpwork /></span>
+                                </Nav.Link>
+                                <Nav.Link href="https://www.facebook.com/people/Manish-Verma/pfbid0YV2V8eNSm6nZisqjVAHWhwLncELXDzSTUR23SDHf6H3HpGHKCPT4FBp6WGR6xMevl/" target='_blank'><span><FaFacebookF /></span></Nav.Link>
+                                <Nav.Link href="https://www.linkedin.com/in/manish-verma-brandcleverdotin/?original_referer=" target="_blank"><span><FaLinkedinIn /></span></Nav.Link>
+                                <Nav.Link href="https://www.instagram.com/maniflix/" target="_blank"><span><FaInstagram /></span></Nav.Link>
+                                <Nav.Link href="https://wa.me/9877268100" target="_blank"><span><FaWhatsapp /></span></Nav.Link>
                             </div>
                         </div>
                     </Col>
                     <Col md={6}>
                         <div className='ceo_img'>
-                            <img src='https://themejunction.net/html/gerold/demo/assets/img/hero/me.png' alt='ceo_img' />
+                            <img src='https://static.vecteezy.com/system/resources/thumbnails/036/594/092/small_2x/man-empty-avatar-photo-placeholder-for-social-networks-resumes-forums-and-dating-sites-male-and-female-no-photo-images-for-unfilled-user-profile-free-vector.jpg' alt='ceo_img' />
                         </div>
                     </Col>
                 </Row>
