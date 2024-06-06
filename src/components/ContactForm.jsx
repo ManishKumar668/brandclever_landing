@@ -39,13 +39,16 @@ export default function ContactForm({ contactSectionRef }) {
                     'Content-Type': 'application/json'
                 }
             });
-
-            console.log("resss", res)
         } catch (error) {
 
         }
     }
 
+
+    const validatePhoneNumber = (number) => {
+        const phoneRegex = /^\+?(\d{1,3})?[-.\s]?(\(?\d{3}\)?)[-.\s]?(\d{3})[-.\s]?(\d{4})$/;
+        return phoneRegex.test(number);
+    };
 
     const handlSubmit = async (e) => {
         e.preventDefault();
@@ -56,6 +59,10 @@ export default function ContactForm({ contactSectionRef }) {
         if (!formData.email) {
             toast.error("Email is Required!");
             return;
+        }
+        if (!validatePhoneNumber(formData.number)) {
+            toast.error("Phone number is not valid!")
+            return
         }
         if (!emailRegex.test(formData.email)) {
             toast.error("Email is not valid!");

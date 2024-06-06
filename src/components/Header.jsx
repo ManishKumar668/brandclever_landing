@@ -38,7 +38,7 @@ export default function Header({ onScrollToSection, activeMenuItem, sectionRefs 
             <header>
                 <nav className={`navbar header-nav-01 ${scrolled ? 'scrolled' : 'transparent'} fixed-top navbar-expand-lg`}>
                     <div className="container">
-                        <Nav.Link className="navbar-brand" href="">Manish <span className="theme-bg"></span></Nav.Link>
+                        <Nav.Link className="navbar-brand" href=""><img src='logo.png' alt='logo' className='logo_img'/> <span className="theme-bg"></span></Nav.Link>
 
                         <button
                             className="navbar-toggler"

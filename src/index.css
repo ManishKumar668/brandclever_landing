@@ -429,12 +429,12 @@ section.about_story.padding_top_down.slider_section {
   padding: 90px 0px 0px 0px;
 }
 
-.cont_act_use {
+/* .cont_act_use {
   background-image: url(https://img.freepik.com/premium-photo/abstract-background-beautiful-close-up-image-ai-generated_859483-119541.jpg?w=740);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .image_up_icn_set {
   position: absolute;
@@ -955,9 +955,16 @@ span.theme-color.d-inline-block.text-center {
   font-size: 16px;
 }
 
-.single-price.white-bg.shadow-hover.transition3.border-radius12.pl-45.pr-45.pt-45.pb-50.mb-30:hover {
+/* .single-price.white-bg.shadow-hover.transition3.border-radius12.pl-45.pr-45.pt-45.pb-50.mb-30:hover {
   margin-top: -20px;
   transition: 0.5s;
+} */
+
+.single-price.white-bg.shadow-hover.transition3.border-radius12.pl-45.pr-45.pt-45.pb-50.mb-30:hover {
+  /* margin-top: -20px; */
+  transition: 0.5s;
+  scale: 1.04;
+  cursor: pointer;
 }
 
 ul.price-list {
@@ -1126,14 +1133,14 @@ ul.ant-rate.client_rating.css-17seli4 {
 }
 
 .skill_section {
-  background-image: url('../public/images/skill.avif')
+  background-image: url('../public/images/bio_back.jpg')
     /* opacity: 0.6; */
 }
 
 /* new home design css */
 
 .home_page_section {
-  padding: 100px 0;
+  padding: 120px 0;
   background: var(--tj-theme-accent-1);
   position: relative;
   overflow: hidden;

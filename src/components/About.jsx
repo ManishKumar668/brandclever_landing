@@ -13,8 +13,8 @@ export default function About() {
                         <Row className='About_row_sec'>
                             <Col md={5} className='About_left_side_set'>                                                                  
                                 <div className='Image_left_side_banner_down'>
-                                    <img className='not_show_desktop' alt='banner_down_img' src={`${process.env.PUBLIC_URL}/images/manish_verna_aboutsec__1_-removebg-preview (3).png`}></img>
-                                    <img className='desktop_ims_show' alt='banner_down_img' src={`${process.env.PUBLIC_URL}/images/manish_verna_aboutsec.png`}></img>
+                                    <img className='not_show_desktop' alt='banner_down_img' src={`${process.env.PUBLIC_URL}/images/manish_verna_aboutsec.jpg`}></img>
+                                    <img className='desktop_ims_show' alt='banner_down_img' src={`${process.env.PUBLIC_URL}/images/manish_verna_aboutsec.jpg`}></img>
                                 </div>
                             </Col>
                             <Col md={7} className='About_right_side_set'>

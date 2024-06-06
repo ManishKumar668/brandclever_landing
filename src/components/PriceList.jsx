@@ -1,4 +1,5 @@
 import React from 'react'
+import { Nav } from 'react-bootstrap'
 import { FaCheck } from 'react-icons/fa'
 
 const threenintyPlan = [
@@ -41,6 +42,16 @@ const fourNintySocialplan = [
 ]
 
 export default function () {
+
+
+  const handleClick = (title) => {
+    const email = 'manishdoraha1@gmail.com';
+    const subject = encodeURIComponent(`${title} Plan`);
+    const body = encodeURIComponent(`I go for ${title} plan`);
+    window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+  };
+
+
   return (
     <div>
       <section className='pricing_sec'>
@@ -83,12 +94,13 @@ export default function () {
                       )
                     })}
                   </ul>
-                  <a
-                    href="#"
+                  <Nav.Link
+                    onClick={()=>handleClick("seo")}
+                    href=""
                     className="btn position-relative over-hidden text-white theme-bg text-white text-capitalize mt-25"
                   >
                     Get Start
-                  </a>
+                  </Nav.Link>
                 </div>
                 {/* / */}
               </div>
@@ -118,12 +130,13 @@ export default function () {
                       })
                     }
                   </ul>
-                  <a
-                    href="#"
+                  <Nav.Link
+                    onClick={()=>handleClick("social media")}
+                    href=""
                     className="btn position-relative over-hidden text-white theme-bg text-white text-capitalize mt-25"
                   >
                     Get Start
-                  </a>
+                  </Nav.Link>
                 </div>
                 {/* / */}
               </div>
@@ -153,12 +166,13 @@ export default function () {
                     })}
 
                   </ul>
-                  <a
-                    href="#"
+                  <Nav.Link
+                    onClick={()=>handleClick("PPC")}
+                    href=""
                     className="btn position-relative over-hidden text-white theme-bg text-white text-capitalize mt-25"
                   >
                     Get Start
-                  </a>
+                  </Nav.Link>
                 </div>
                 {/* / */}
               </div>
