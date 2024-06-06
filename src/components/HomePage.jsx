@@ -50,8 +50,8 @@ export default function HomePage({onScrollToContact}) {
                                     </div>
                                 </Col>
                                 <Col md={5} className='Set_banner_right_side'>
-                                    <div className='banner_right_side_img'>
-                                        <img alt="banner img" src={`${process.env.PUBLIC_URL}/images/manish_verma.png`}></img>
+                                    <div className='banner_right_side_img'>         
+                                        {/* <img alt="banner img" src={`${process.env.PUBLIC_URL}/images/manish_verma(1).png`}></img> */}
                                     </div>
                                 </Col>
                             </Row>
