@@ -6,15 +6,36 @@
     section.about_story.padding_top_down .left_side_image_story {
         height: auto;
     }
+    .home_page_section img {
+      transform: unset; 
+    }
  
     }
 
 @media (max-width: 992px) {
-    section.about_story.padding_top_down.slider_section.client_review .client_reviews_main {
-     height: auto; 
+    .home_page_section {
+        padding: 100px 0px 30px 0px;
+    }
+    .col-md-4.set_blogs_responsive {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    section.about_story.padding_top_down .resume-row {
+        margin-top: 40px;
+    }
+    .home_page_section .resume_btn {
+        display: flex;
+        justify-content: left;
+    }
+    .home_page_section img {
+        height: 100%;
+        width: 100%;
+    }
+    .home_page_section .col-md-6 {
+        width: 100%;
     }
     .padding_top_down {
-        padding: 50px 0px;
+        padding: 50px 0px !important;
     }
     .about_us_section_main_start .row {
         display: block;
@@ -89,7 +110,7 @@
             margin-top: 20px;
         }
         .secondary-bg {
-            margin-top: 50px;
+            margin-top: 0px;
             padding: 50px 0px 50px 0px;
         }
         .skill-left {
@@ -99,6 +120,23 @@
     }
 
 @media (max-width: 768px) {
+    .navbar.transparent {
+        background-color: #131414;
+    }
+    button.navbar-toggler {
+        background: #fff;
+    }
+    ul.price-list {
+        height: auto;
+    }
+    .home_page_section .social {
+        margin-top: 10px;
+    }
+    .home_page_section .resume_btn {
+        gap: 0px;
+        display: block;
+        margin-top: 10px;
+    }
     .title.text-center h3 {
         font-size: 35px;
     }
@@ -117,6 +155,15 @@
 }
 
 @media (max-width:480px) {
+    .slide_parent .slick-dots li {
+        width: 19px;
+    }
+    .title.text-center h3 {
+        font-size: 24px;
+    }
+    .left_side h1 {
+        font-size: 33px;
+    }
 
     .top-counter {
         gap: 40px;
