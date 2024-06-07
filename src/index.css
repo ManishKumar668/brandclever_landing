@@ -651,6 +651,7 @@ section.about_story.padding_top_down.slider_section.blog_sec .blog-item {
   line-height: 26px;
   margin: 0 0 20px;
   color: var(--light);
+  height: 155px;
 }
 
 .blog-item .blog-content a.more {
@@ -959,6 +960,10 @@ span.theme-color.d-inline-block.text-center {
   margin-top: -20px;
   transition: 0.5s;
 } */
+
+img.blog_img {
+  height: 220px;
+}
 
 .single-price.white-bg.shadow-hover.transition3.border-radius12.pl-45.pr-45.pt-45.pb-50.mb-30:hover {
   /* margin-top: -20px; */
