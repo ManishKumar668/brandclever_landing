@@ -62,7 +62,7 @@ const Counter = () => {
             <div className="column">
               <div className="card-counter">
                 <h3>
-                  <span id="Projects" className="counter_number">0</span>
+                  <span id="Projects" className="counter_number">0</span><span className="counter_number">+</span>
                 </h3>
                 <h6>FINISHED PROJECTS</h6>
               </div>
@@ -70,7 +70,7 @@ const Counter = () => {
             <div className="column">
               <div className="card-counter">
                 <h3>
-                  <span id="Clients" className="counter_number">0</span>
+                  <span id="Clients" className="counter_number">0</span><span className="counter_number">+</span>
                 </h3>
                 <h6>HAPPY CUSTOMERS</h6>
               </div>
@@ -78,7 +78,7 @@ const Counter = () => {
             <div className="column">
               <div className="card-counter">
                 <h3>
-                  <span id="Working" className="counter_number">0</span>
+                  <span id="Working" className="counter_number">0</span><span className="counter_number">+</span>
                 </h3>
                 <h6>WORKING HOURS</h6>
               </div>
@@ -86,7 +86,7 @@ const Counter = () => {
             <div className="column">
               <div className="card-counter">
                 <h3>
-                  <span id="Coffee" className="counter_number">0</span>
+                  <span id="Coffee" className="counter_number">0</span><span className="counter_number">+</span>
                 </h3>
                 <h6>COFFEE CUPS</h6>
               </div>

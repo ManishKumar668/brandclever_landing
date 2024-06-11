@@ -1,6 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import { BsWallet2 } from 'react-icons/bs'
+import { Container, Row, Col } from 'react-bootstrap';
 import { SiCoinmarketcap, SiMarketo } from 'react-icons/si'
 import { TbBrandWalmart, TbCirclesRelation } from 'react-icons/tb'
 

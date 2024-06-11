@@ -31,7 +31,7 @@ export default function UpdatedHomePage({ onScrollToContact }) {
                     </Col>
                     <Col md={6}>
                         <div className='ceo_img'>
-                            <img src='https://static.vecteezy.com/system/resources/thumbnails/036/594/092/small_2x/man-empty-avatar-photo-placeholder-for-social-networks-resumes-forums-and-dating-sites-male-and-female-no-photo-images-for-unfilled-user-profile-free-vector.jpg' alt='ceo_img' />
+                            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaBbRIpnbEj9slII1lqCEh-zUUs6ZCXX5udw&s' alt='ceo_img' />
                         </div>
                     </Col>
                 </Row>
